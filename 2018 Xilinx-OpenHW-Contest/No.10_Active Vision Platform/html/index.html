@@ -1,0 +1,197 @@
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico">
+        <script src='public/lib/jquery/jquery-2.2.3.min.js'></script>
+        <script src='public/lib/bootstrap/bootstrap.min.js'></script>
+        <link rel='stylesheet' href='public/lib/bootstrap/bootstrap.css'>
+        <link rel='stylesheet' href='public/lib/bootstrap/bootstrap.min.css'>
+        <link rel='stylesheet' href='public/lib/bootstrap/bootstrap-grid.css'>
+        <link rel='stylesheet' href='public/lib/bootstrap/bootstrap-reboot.css'>
+        <link rel='stylesheet' href='public/css/login-style.css'>
+        <link rel='stylesheet' href='public/lib/font-awesome/css/font-awesome.min.css'>
+        <script src='public/lib/jquery.backstretch.min.js'></script>
+        <script src='public/lib/bootstrap.js'></script>
+        <script src='public/lib/bootstrap.min.js'></script>
+        <script src='public/lib/bootstrap.bundle.js'></script>
+
+        <title>3-D Vision</title>
+    </head>
+    <body>
+        <div class="container">
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+<!-- 					<div class="jumbotron">
+						<h1>
+							主动式三维视觉
+						</h1>
+						<p align="left">
+							&nbsp;&nbsp;使用自主研发的主动式三维视觉平台，采用Kintex-7系列FPGA + i.MX6Q架构，可控制数字微镜器件高速投射编码结构光，并驱动高速摄像头拍摄，使用多线程+GPU处理后可实时显示三维视觉效果
+						</p>
+					</div> -->
+
+					<div class="carousel slide" id="carousel-597993">
+						<ol class="carousel-indicators">
+							<li data-slide-to="0" data-target="#carousel-597993" class="active">
+							</li>
+							<li data-slide-to="1" data-target="#carousel-597993">
+							</li>
+							<li data-slide-to="2" data-target="#carousel-597993">
+							</li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="item active">
+								<img alt="" src="images/3D.png" />
+								<div class="carousel-caption">
+									<h4>
+
+									</h4>
+									<p>
+										&nbsp;&nbsp;自主研发的主动式三维视觉平台，采用Kintex-7系列FPGA + i.MX6架构，控制数字微镜器件高速投射编码结构光，驱动高速摄像头拍摄，使用多线程+GPU处理，实时显示三维视觉效果
+									</p>
+								</div>
+							</div>
+							<div class="item">
+								<img alt="" src="images/cover2.png" />
+								<div class="carousel-caption">
+									<h4>
+										
+									</h4>
+									<p>
+										
+									</p>
+								</div>
+							</div>
+							<div class="item">
+								<img alt="" src="images/board.jpg" />
+								<div class="carousel-caption">
+									<h4>
+										 <font size="10">复杂的硬件系统</font> 
+									</h4>
+									<br>
+									<br>
+									<br>
+									<p>
+										板上包含FPGA&nbsp;&nbsp;i.MX6Q&nbsp;&nbsp;DDR3&nbsp;&nbsp;千兆网&nbsp;&nbsp;SATA&nbsp;&nbsp;MIPI&nbsp;&nbsp;HDMI&nbsp;&nbsp;USB&nbsp;&nbsp;LVDS(80 PAIRS)
+									</p>
+									<br>
+									<br>
+								</div>
+							</div>
+						</div> <a class="left carousel-control" href="#carousel-597993" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-597993" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+					</div>
+					<br>
+					<div class="panel-group" id="panel-768013">
+						<div class="panel panel-default">
+							<div class="panel-heading" align="left">
+								 <a class="panel-title" data-toggle="collapse" data-parent="#panel-768013" href="#panel-element-104150" > <em class="glyphicon glyphicon-camera"></em> 相机选项</a>
+							</div>
+							<div id="panel-element-104150" class="panel-collapse collapsing">
+								<div class="panel-body" align="left">
+									<form role="form">
+										<div class="col-md-6 column">
+											<div class="row">
+												<label for="exampleInputEmail1"  style="width: 100%;">相机分辨率</label>
+												<div class="btn-group">
+													 <button class="btn btn-default" id="CAMERA" type="button">1920x1080</button> 
+													 <button data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button"></button>
+													<ul class="dropdown-menu">
+														<li>
+															 <a href="#" id = 'a1920'>1920x1080</a>
+														</li>
+														<li>
+															 <a href="#" id = 'a1280'>1280x720</a>
+													 	</li>
+													 	<li>
+															 <a href="#" id = 'a640'>640x480</a>
+													 	</li>
+													</ul>
+												</div>
+											</div>
+											<br>
+											<div class="row">
+												<label for="exampleInputPassword1" style="width: 100%;">相机拍摄区域</label>
+												<!-- <div class="col-md-2 column"> -->
+												 	<label for="exampleInputPassword1" style="width: 20%;">start_x</label>
+												 	<input type="text" class="form-control" id="exampleInputPassword1" value="0" onfocus="javascript:if(this.value=='0')this.value='';" style="width: 30%;"/>
+												 	<label for="exampleInputPassword1" style="width: 50%;"></label>
+												 	<label for="exampleInputPassword1"  style="width: 20%;">start_y</label>
+												 	<input type="text" class="form-control" id="exampleInputPassword1" value="0" onfocus="javascript:if(this.value=='0')this.value='';" style="width: 30%;"/>
+												 	<label for="exampleInputPassword1" style="width: 50%;"></label>
+												 	<label for="exampleInputPassword1"  style="width: 20%;">stop_x</label>
+												 	<input type="text" class="form-control" id="exampleInputPassword1" value="640" onfocus="javascript:if(this.value=='640')this.value='';" style="width: 30%;"/>
+												 	<label for="exampleInputPassword1" style="width: 50%;"></label>
+												 	<label for="exampleInputPassword1"  style="width: 20%;">stop_y</label>
+												 	<input type="text" class="form-control" id="exampleInputPassword1" value="480" onfocus="javascript:if(this.value=='480')this.value='';" style="width: 30%;"/>
+												 	<label for="exampleInputPassword1" style="width: 50%;"></label><br><br>
+												 	<button type="button" class="btn btn-success btn-small">确认</button>
+												<!-- </div> -->
+												<!-- <div class="col-md-10 column"> -->
+													 
+													 
+													 
+													 
+												<!-- </div> -->
+											</div>
+											
+										</div>
+										<div class="col-md-6 column">
+											<img alt="140x140" src="images/camera.jpg" />
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="panel-group" id="panel-768013">
+						<div class="panel panel-default">
+							<div class="panel-heading" align="left">
+								 <a class="panel-title" data-toggle="collapse" data-parent="#panel-768013" href="#panel-element-104151"> <em class="glyphicon glyphicon-wrench"></em> 功能选项</a>
+							</div>
+							<div id="panel-element-104151" class="panel-collapse collapsing">
+								<div class="panel-body" align="left">
+									<div class="col-md-4 column">
+										<div class="btn-group">
+											<button class="btn btn-large" id='testBtn' type="button" style="width: 40%; margin-top: 20px; margin-right: 20px;">TEST</button>
+											<button class="btn btn-success btn-large" id='calibBtn' type="button" style="width: 40%;margin-top: 20px;margin-right: 20px;" >CALIBRATE</button>
+											<button class="btn btn-primary btn-large" id='3DVHBtn' type="button" style="width: 40%;margin-top: 20px;margin-right: 20px;" >3D_VISION1</button>
+											<button class="btn btn-primary btn-large" id='3DVBtn' type="button" style="width: 40%;margin-top: 20px;margin-right: 20px;" >3D_VISION2</button> 
+											<button class="btn btn-primary btn-large" id='3DHBtn' type="button" style="width: 40%;margin-top: 20px;margin-right: 20px;" >3D_CLOUD</button> 
+											<button class="btn btn-primary btn-large" id='3DSBtn' type="button" style="width: 40%;margin-top: 20px;margin-right: 20px;" >3D_Capture</button> 
+											<button class="btn btn-warning btn-large" id='STOPBtn' type="button" style="width: 86%;margin-top: 20px;margin-bottom: 20px;" >STOP</button>
+										</div>
+									</div>
+									<div class="col-md-6 column">
+										<img alt="140x140" src="images/default3.jpg" id="3Dimage" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+        </div>
+        <script src='public/js/login.js'></script>
+        <script src="public/js/echarts.min.js"></script>
+        <script src="public/js/echarts-gl.min.js"></script>
+        <script src="public/js/ecStat.min.js"></script>
+        <script src="public/js/dataTool.min.js"></script>
+        <script src="public/js/china.js"></script>
+        <script src="public/js/world.js"></script>
+        <script src="public/js/bmap.min.js"></script>
+        <script src="public/js/simplex.js"></script>
+
+
+             <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<!--         <div id="main" style="width: 600px;height:400px;"></div> -->
+<!--         <script type="text/javascript">
+
+        </script> -->
+    </body>
+</html>
