@@ -1,0 +1,661 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Aug 06 21:14:00 2018
+# Process ID: 12100
+# Log file: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/vivado.log
+# Journal file: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.xpr
+INFO: [Project 1-313] Project file moved from 'H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Professional_programfiles/VIVADO/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:16 . Memory (MB): peak = 1118.160 ; gain = 502.133
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Write_Width_A {12} CONFIG.Write_Depth_A {84480} CONFIG.Enable_B {Always_Enabled} CONFIG.Read_Width_A {12} CONFIG.Write_Width_B {12} CONFIG.Read_Width_B {12}] [get_ips blk_mem_gen_0]
+generate_target all [get_files  H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'blk_mem_gen_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'...
+reset_run blk_mem_gen_0_synth_1
+launch_run -jobs 4 blk_mem_gen_0_synth_1
+[Mon Aug 06 21:37:11 2018] Launched blk_mem_gen_0_synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/blk_mem_gen_0_synth_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property part xc7a35tcpg236-1 [current_project]
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* Current project part 'xc7a35tcpg236-1' and the part 'xc7a200tsbg484-1' used to customize the IP 'clk_wiz_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'blk_mem_gen_0' is locked:
+* Current project part 'xc7a35tcpg236-1' and the part 'xc7a200tsbg484-1' used to customize the IP 'blk_mem_gen_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'ila_0' is locked:
+* Current project part 'xc7a35tcpg236-1' and the part 'xc7a200tsbg484-1' used to customize the IP 'ila_0' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'DIV_32_32' is locked:
+* Current project part 'xc7a35tcpg236-1' and the part 'xc7a200tsbg484-1' used to customize the IP 'DIV_32_32' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+upgrade_ip -srcset clk_wiz_0 -vlnv xilinx.com:ip:clk_wiz:5.1 [get_ips  clk_wiz_0]
+Upgrading 'clk_wiz_0'
+delete_ip_run [get_ips -all clk_wiz_0]
+INFO: [Project 1-386] Moving file 'H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' from fileset 'clk_wiz_0' to fileset 'sources_1'.
+INFO: [IP_Flow 19-3420] Updated clk_wiz_0 to use current project options
+INFO: [IP_Flow 19-3471] Wrote upgrade log to 'h:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.upgrade_log'.
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+update_compile_order -fileset sources_1
+remove_files -fileset ila_0 H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/ila_0_1/ila_0.xci
+delete_fileset ila_0
+upgrade_ip -srcset blk_mem_gen_0 -vlnv xilinx.com:ip:blk_mem_gen:8.2 [get_ips  blk_mem_gen_0]
+Upgrading 'blk_mem_gen_0'
+delete_ip_run [get_ips -all blk_mem_gen_0]
+INFO: [Project 1-386] Moving file 'H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' from fileset 'blk_mem_gen_0' to fileset 'sources_1'.
+INFO: [IP_Flow 19-3420] Updated blk_mem_gen_0 to use current project options
+INFO: [IP_Flow 19-3471] Wrote upgrade log to 'h:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.upgrade_log'.
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'...
+update_compile_order -fileset sources_1
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+generate_target all [get_files  H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
+create_ip_run [get_files -of_objects [get_fileset sources_1] H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+launch_run -jobs 4 clk_wiz_0_synth_1
+[Mon Aug 06 21:43:54 2018] Launched clk_wiz_0_synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/clk_wiz_0_synth_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+generate_target all [get_files  H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'blk_mem_gen_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'...
+create_ip_run [get_files -of_objects [get_fileset sources_1] H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+launch_run -jobs 4 blk_mem_gen_0_synth_1
+[Mon Aug 06 21:44:31 2018] Launched blk_mem_gen_0_synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/blk_mem_gen_0_synth_1/runme.log
+upgrade_ip -srcset DIV_32_32 -vlnv xilinx.com:ip:div_gen:5.1 [get_ips  DIV_32_32]
+Upgrading 'DIV_32_32'
+delete_ip_run [get_ips -all DIV_32_32]
+INFO: [Project 1-386] Moving file 'H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/DIV_32_32_1/DIV_32_32.xci' from fileset 'DIV_32_32' to fileset 'sources_1'.
+INFO: [IP_Flow 19-3420] Updated DIV_32_32 to use current project options
+INFO: [IP_Flow 19-3471] Wrote upgrade log to 'h:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/DIV_32_32_1/DIV_32_32.upgrade_log'.
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'DIV_32_32'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/DIV_32_32_1/DIV_32_32.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'DIV_32_32'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'DIV_32_32' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'DIV_32_32'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'DIV_32_32' does not support 'Verilog Simulation' output products, delivering 'VHDL Simulation' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'C Simulation' target for IP 'DIV_32_32'...
+INFO: [IP_Flow 19-1686] Generating 'Test Bench' target for IP 'DIV_32_32'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'DIV_32_32' does not support 'Verilog Test Bench' output products, delivering 'VHDL Test Bench' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'DIV_32_32'...
+create_ip_run [get_files -of_objects [get_fileset sources_1] H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/DIV_32_32_1/DIV_32_32.xci]
+launch_run -jobs 4 DIV_32_32_synth_1
+[Mon Aug 06 21:44:59 2018] Launched DIV_32_32_synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/DIV_32_32_synth_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Aug 06 21:47:22 2018] Launched synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Mon Aug 06 21:47:22 2018] Launched impl_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Write_Depth_A {102400}] [get_ips blk_mem_gen_0]
+generate_target all [get_files  H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'blk_mem_gen_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'...
+reset_run blk_mem_gen_0_synth_1
+launch_run -jobs 4 blk_mem_gen_0_synth_1
+[Mon Aug 06 22:00:18 2018] Launched blk_mem_gen_0_synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/blk_mem_gen_0_synth_1/runme.log
+remove_files -fileset clk_wiz_0 H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+delete_fileset clk_wiz_0
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 5.1 -module_name clk_wiz_0
+set_property -dict [list CONFIG.CLKOUT2_USED {true} CONFIG.CLKOUT3_USED {true} CONFIG.CLKOUT4_USED {true} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {50.000} CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {25.000} CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {12.500} CONFIG.CLKOUT4_REQUESTED_OUT_FREQ {6.250} CONFIG.USE_LOCKED {false} CONFIG.USE_RESET {false} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {8.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {16.000} CONFIG.MMCM_CLKOUT1_DIVIDE {32} CONFIG.MMCM_CLKOUT2_DIVIDE {64} CONFIG.MMCM_CLKOUT3_DIVIDE {128} CONFIG.NUM_OUT_CLKS {4} CONFIG.CLKOUT1_JITTER {167.017} CONFIG.CLKOUT1_PHASE_ERROR {114.212} CONFIG.CLKOUT2_JITTER {191.696} CONFIG.CLKOUT2_PHASE_ERROR {114.212} CONFIG.CLKOUT3_JITTER {219.618} CONFIG.CLKOUT3_PHASE_ERROR {114.212} CONFIG.CLKOUT4_JITTER {251.196} CONFIG.CLKOUT4_PHASE_ERROR {114.212}] [get_ips clk_wiz_0]
+generate_target {instantiation_template} [get_files h:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+generate_target all [get_files  h:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
+create_ip_run [get_files -of_objects [get_fileset sources_1] h:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xci]
+launch_run -jobs 4 clk_wiz_0_synth_1
+[Mon Aug 06 22:02:09 2018] Launched clk_wiz_0_synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/clk_wiz_0_synth_1/runme.log
+remove_files -fileset DIV_32_32 H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/DIV_32_32_1/DIV_32_32.xci
+delete_fileset DIV_32_32
+create_ip -name div_gen -vendor xilinx.com -library ip -version 5.1 -module_name DIV_32_32
+set_property -dict [list CONFIG.dividend_and_quotient_width {32} CONFIG.divisor_width {32} CONFIG.operand_sign {Unsigned} CONFIG.fractional_width {32} CONFIG.latency {34}] [get_ips DIV_32_32]
+generate_target {instantiation_template} [get_files h:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/DIV_32_32_2/DIV_32_32.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'DIV_32_32'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  h:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/DIV_32_32_2/DIV_32_32.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'DIV_32_32'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'DIV_32_32' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'DIV_32_32'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'DIV_32_32' does not support 'Verilog Simulation' output products, delivering 'VHDL Simulation' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'C Simulation' target for IP 'DIV_32_32'...
+INFO: [IP_Flow 19-1686] Generating 'Test Bench' target for IP 'DIV_32_32'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'DIV_32_32' does not support 'Verilog Test Bench' output products, delivering 'VHDL Test Bench' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'DIV_32_32'...
+create_ip_run [get_files -of_objects [get_fileset sources_1] h:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/DIV_32_32_2/DIV_32_32.xci]
+launch_run -jobs 4 DIV_32_32_synth_1
+[Mon Aug 06 22:03:42 2018] Launched DIV_32_32_synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/DIV_32_32_synth_1/runme.log
+remove_files -fileset blk_mem_gen_0 H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+delete_fileset blk_mem_gen_0
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.2 -module_name blk_mem_gen_0
+set_property -dict [list CONFIG.Memory_Type {Simple_Dual_Port_RAM} CONFIG.Write_Width_A {12} CONFIG.Write_Depth_A {102400} CONFIG.Enable_A {Always_Enabled} CONFIG.Enable_B {Always_Enabled} CONFIG.Read_Width_A {12} CONFIG.Operating_Mode_A {NO_CHANGE} CONFIG.Write_Width_B {12} CONFIG.Read_Width_B {12} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Register_PortB_Output_of_Memory_Primitives {true} CONFIG.Port_B_Clock {100} CONFIG.Port_B_Enable_Rate {100}] [get_ips blk_mem_gen_0]
+generate_target {instantiation_template} [get_files h:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/blk_mem_gen_0_1/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'...
+generate_target all [get_files  h:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/blk_mem_gen_0_1/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'blk_mem_gen_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'...
+create_ip_run [get_files -of_objects [get_fileset sources_1] h:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/blk_mem_gen_0_1/blk_mem_gen_0.xci]
+launch_run -jobs 4 blk_mem_gen_0_synth_1
+[Mon Aug 06 22:04:40 2018] Launched blk_mem_gen_0_synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/blk_mem_gen_0_synth_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Aug 06 22:10:13 2018] Launched synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Mon Aug 06 22:10:13 2018] Launched impl_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A
+ERROR: [Labtools 27-2270] Target localhost/xilinx_tcf/Digilent/210183636043A is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+close_hw
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Mon Aug 06 22:18:34 2018. For additional details about this file, please refer to the WebTalk help file at D:/Professional_programfiles/VIVADO/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Aug 06 22:18:34 2018...
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636371A
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636371A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636371A
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Aug 06 22:29:48 2018] Launched synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Mon Aug 06 22:29:48 2018] Launched impl_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636371A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636371A
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+set_property -dict [list CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {24} CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {12} CONFIG.CLKOUT4_REQUESTED_OUT_FREQ {6} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {6.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {12.000} CONFIG.MMCM_CLKOUT1_DIVIDE {25} CONFIG.MMCM_CLKOUT2_DIVIDE {50} CONFIG.MMCM_CLKOUT3_DIVIDE {100} CONFIG.CLKOUT1_JITTER {174.353} CONFIG.CLKOUT1_PHASE_ERROR {132.063} CONFIG.CLKOUT2_JITTER {202.114} CONFIG.CLKOUT2_PHASE_ERROR {132.063} CONFIG.CLKOUT3_JITTER {231.952} CONFIG.CLKOUT3_PHASE_ERROR {132.063} CONFIG.CLKOUT4_JITTER {265.760} CONFIG.CLKOUT4_PHASE_ERROR {132.063}] [get_ips clk_wiz_0]
+generate_target all [get_files  h:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
+reset_run clk_wiz_0_synth_1
+launch_run -jobs 4 clk_wiz_0_synth_1
+[Mon Aug 06 22:35:58 2018] Launched clk_wiz_0_synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/clk_wiz_0_synth_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Aug 06 22:36:04 2018] Launched clk_wiz_0_synth_1, synth_1...
+Run output will be captured here:
+clk_wiz_0_synth_1: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/clk_wiz_0_synth_1/runme.log
+synth_1: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Mon Aug 06 22:36:04 2018] Launched impl_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636371A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636371A
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636371A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636371A
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Write_Width_A {16} CONFIG.Enable_B {Always_Enabled} CONFIG.Read_Width_A {16} CONFIG.Write_Width_B {16} CONFIG.Read_Width_B {16}] [get_ips blk_mem_gen_0]
+generate_target all [get_files  h:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/blk_mem_gen_0_1/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'blk_mem_gen_0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'...
+reset_run blk_mem_gen_0_synth_1
+launch_run -jobs 4 blk_mem_gen_0_synth_1
+[Mon Aug 06 22:48:28 2018] Launched blk_mem_gen_0_synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/blk_mem_gen_0_synth_1/runme.log
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+set_property -dict [list CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {25.000} CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {12.500} CONFIG.CLKOUT4_REQUESTED_OUT_FREQ {6.250} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {8.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {16.000} CONFIG.MMCM_CLKOUT1_DIVIDE {32} CONFIG.MMCM_CLKOUT2_DIVIDE {64} CONFIG.MMCM_CLKOUT3_DIVIDE {128} CONFIG.CLKOUT1_JITTER {167.017} CONFIG.CLKOUT1_PHASE_ERROR {114.212} CONFIG.CLKOUT2_JITTER {191.696} CONFIG.CLKOUT2_PHASE_ERROR {114.212} CONFIG.CLKOUT3_JITTER {219.618} CONFIG.CLKOUT3_PHASE_ERROR {114.212} CONFIG.CLKOUT4_JITTER {251.196} CONFIG.CLKOUT4_PHASE_ERROR {114.212}] [get_ips clk_wiz_0]
+generate_target all [get_files  h:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
+reset_run clk_wiz_0_synth_1
+launch_run -jobs 4 clk_wiz_0_synth_1
+[Mon Aug 06 22:51:05 2018] Launched clk_wiz_0_synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/clk_wiz_0_synth_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Aug 06 22:53:14 2018] Launched synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Mon Aug 06 22:53:14 2018] Launched impl_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636371A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636371A
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636371A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636371A
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636371A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636371A
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636371A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636371A
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636371A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636371A
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+expected floating-point number but got ""
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Aug 06 23:10:54 2018] Launched synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Mon Aug 06 23:10:54 2018] Launched impl_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636371A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636371A
+ERROR: [Labtools 27-2270] Target localhost/xilinx_tcf/Digilent/210183636371A is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1512.027 ; gain = 0.000
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+INFO: [Labtoolstcl 44-468] Target hw_target localhost/xilinx_tcf/Digilent/210183636043A is already closed
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+INFO: [Labtoolstcl 44-468] Target hw_target localhost/xilinx_tcf/Digilent/210183636043A is already closed
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Aug 06 23:34:18 2018] Launched synth_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Mon Aug 06 23:34:18 2018] Launched impl_1...
+Run output will be captured here: H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+INFO: [Labtoolstcl 44-468] Target hw_target localhost/xilinx_tcf/Digilent/210183636043A is already closed
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+INFO: [Labtoolstcl 44-468] Target hw_target localhost/xilinx_tcf/Digilent/210183636043A is already closed
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+INFO: [Labtoolstcl 44-468] Target hw_target localhost/xilinx_tcf/Digilent/210183636043A is already closed
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+INFO: [Labtoolstcl 44-468] Target hw_target localhost/xilinx_tcf/Digilent/210183636043A is already closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 06 23:51:28 2018...

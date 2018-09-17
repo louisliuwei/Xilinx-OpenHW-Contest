@@ -1,0 +1,2150 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 2468
+
+Current time: 	8/6/18 11:24:10 AM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	D:/Professional_programfiles/VIVADO/Vivado/2015.2/tps/win64/jre
+
+User name: 	WangTianpeng
+User directory: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/WangTianpeng/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/WangTianpeng/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	134 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 434 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: H:\UserFiles\Desktop\aaa\OV7670_ok2\OV7670_1\OV7670_1\OV7670_1.xpr. Version: Vivado v2015.2 
+// cp:P (cl:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// Tcl Message: open_project H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.xpr 
+// [GUI Memory]: 55 MB (+55615kb) [00:00:05]
+// [Engine Memory]: 417 MB (+285673kb) [00:00:05]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 492 MB. GUI used memory: 30 MB. Current time: 8/6/18 11:24:12 AM CST
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 502 MB (+67183kb) [00:00:09]
+// [Engine Memory]: 527 MB (+20kb) [00:00:09]
+// [GUI Memory]: 102 MB (+46182kb) [00:00:11]
+// [Engine Memory]: 643 MB (+93979kb) [00:00:11]
+// [GUI Memory]: 111 MB (+3334kb) [00:00:12]
+// [Engine Memory]: 773 MB (+102373kb) [00:00:12]
+// [GUI Memory]: 118 MB (+1477kb) [00:00:12]
+// [Engine Memory]: 906 MB (+99168kb) [00:00:13]
+// [GUI Memory]: 126 MB (+2404kb) [00:00:13]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'H:/UserFiles/Desktop/OV7670_1/OV7670_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Professional_programfiles/VIVADO/Vivado/2015.2/data/ip'. 
+// [GUI Memory]: 133 MB (+972kb) [00:00:18]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: OV7670_1; location: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1; part: xc7a200tsbg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:17 . Memory (MB): peak = 1154.949 ; gain = 547.410 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 140 MB (+64kb) [00:01:23]
+// Elapsed time: 69 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// [GUI Memory]: 149 MB (+2905kb) [00:01:33]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), I_CFG_OV7670 - cfg_ov7670 (cfg_ov7670.v)]", 3); // A:k (H:JPanel, cl:JFrame)
+// [Engine Memory]: 957 MB (+6334kb) [00:01:35]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), DATA_processing - DATA_processing (DATA_processing.v)]", 7, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), DATA_processing - DATA_processing (DATA_processing.v)]", 7, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), I_CFG_OV7670 - cfg_ov7670 (cfg_ov7670.v), I_CFG_REG - cfg_reg (cfg_reg.v)]", 4, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), I_CFG_OV7670 - cfg_ov7670 (cfg_ov7670.v), I_CFG_REG - cfg_reg (cfg_reg.v)]", 4, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 39 seconds
+selectCodeEditor("cfg_reg.v", 1113, 355); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("cfg_reg.v", 223, 437); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("cfg_reg.v", 217, 381); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 25 seconds
+selectCodeEditor("cfg_reg.v", 213, 388); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("ov7670_vga.v", 432, 331); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Aug 06 11:27:45 2018] Launched synth_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Mon Aug 06 11:27:45 2018] Launched impl_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+// HMemoryUtils.trashcanNow. Engine heap size: 959 MB. GUI used memory: 87 MB. Current time: 8/6/18 11:27:48 AM CST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 539 seconds
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.2   **** Build date : Jun 26 2015-16:56:39     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // cp:P (cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 983 MB. GUI used memory: 106 MB. Current time: 8/6/18 11:36:58 AM CST
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1159.176 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 24 seconds
+// Elapsed time: 21 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-DLC9-Port_#0001.Hub_#0003 is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// Elapsed time: 141 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0) ; Closed", 1, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0)", 0, false); // f:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0) ; Closed", 1, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target {localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1159.176 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 22 seconds
+// Elapsed time: 21 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-DLC9-Port_#0001.Hub_#0003 is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// Elapsed time: 286 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P:a (Workspace:JPanel, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 345, 572); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 61 seconds
+selectCodeEditor("DATA_processing.v", 146, 613); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 146, 613, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 245, 466); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 221, 627); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("DATA_processing.v", 416, 555); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 416, 555, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 236, 396); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 264, 401); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("DATA_processing.v", 281, 413); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 281, 413, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 281, 413); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("DATA_processing.v", 239, 481); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 239, 481, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 262, 477); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("DATA_processing.v", 27, 568); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 27, 568, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 27, 568); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 93, 738); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 100, 738); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 92, 432); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 105, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 105, 433, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 105, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 513, 293); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 55, 31); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 55, 31, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 189, 43); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 161, 31); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 161, 31, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 179, 306); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 179, 306, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 270, 311); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 320, 313); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("DATA_processing.v", 208, 322); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 208, 322, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 195, 404); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 195, 404, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 292, 413); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 292, 413, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 156, 271); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 184, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 218, 259); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 218, 259, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 285, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("DATA_processing.v", 441, 268); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 441, 268, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 405, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 405, 255, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 493, 260); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("DATA_processing.v", 680, 272); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("DATA_processing.v", 633, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 633, 262, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 620, 270); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 620, 270, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 708, 263); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("DATA_processing.v", 855, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 835, 260); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("DATA_processing.v", 304, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("DATA_processing.v", 656, 267); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectCodeEditor("DATA_processing.v", 644, 264); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 644, 264, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 617, 267); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 617, 267, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 791, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 791, 257, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 761, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 761, 256, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor("DATA_processing.v", 344, 314); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 320, 308); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 592, 339); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+selectCodeEditor("DATA_processing.v", 316, 416); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 316, 416, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 77, 27); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("DATA_processing.v", 181, 586); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 181, 586, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Aug 06 11:51:40 2018] Launched synth_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Mon Aug 06 11:51:40 2018] Launched impl_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// [GUI Memory]: 159 MB (+1723kb) [00:31:14]
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 397 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a:JButton (JPanel:JComponent, ak:a)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/constrs_1/new/ov7670_1.xdc:22]. ]", 5, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;H:\UserFiles\Desktop\aaa\OV7670_ok2\OV7670_1\OV7670_1\OV7670_1.srcs\constrs_1\new\ov7670_1.xdc;-;;-;16;-;line;-;22;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_1.xdc", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_1.xdc", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 14 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_CLOSED_TARGETS, "Closed Targets"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 27, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// ae:g (cl:JFrame): Open New Hardware Target: addNotify
+dismissDialog("Open New Hardware Target"); // ae:g (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_CLOSED_TARGETS, "Closed Targets"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem((HResource) null, "localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7a200t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1305.285 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 23 seconds
+// Elapsed time: 21 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 39 seconds
+selectCodeEditor("DATA_processing.v", 476, 306); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("DATA_processing.v", 401, 365); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 401, 365, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 302, 399); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 302, 399, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 224, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 224, 238, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 502, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 502, 233, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 478, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 478, 235, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 732, 231); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 732, 231, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 694, 228); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 694, 228, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 933, 222); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 932, 222, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 950, 246); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 950, 246, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 918, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 918, 252, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 926, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 926, 234, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 698, 335); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-DLC9-Port_#0001.Hub_#0003 is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Aug 06 12:01:16 2018] Launched synth_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Mon Aug 06 12:01:16 2018] Launched impl_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 167 MB (+36kb) [00:39:42]
+// HMemoryUtils.trashcanNow. Engine heap size: 983 MB. GUI used memory: 113 MB. Current time: 8/6/18 12:06:59 PM CST
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 410 seconds
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_CLOSED_TARGETS, "Closed Targets"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+unMinimizeFrame(PAResourceOtoP.PAViews_HARDWARE, "Hardware"); // ap:DockableFrame
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0) ; Closed", 1, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0)", 0, false); // f:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0) ; Closed", 1, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target {localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1305.285 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 22 seconds
+// Elapsed time: 21 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 864 seconds
+selectCodeEditor("DATA_processing.v", 121, 243); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("DATA_processing.v", 212, 364); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 258, 287); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("ov7670_vga.v", 235, 362); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectCodeEditor("ov7670_vga.v", 242, 406); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_1.xdc", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 487, 536); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_1.xdc", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 15, 561); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 377, 539); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 377, 539, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_1.xdc", 428, 558); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 428, 558, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("ov7670_1.xdc", 234, 533); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 234, 533, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cfg_reg.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 396, 446); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("DATA_processing.v", 656, 434); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 950, 434); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 1138, 431); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectCodeEditor("DATA_processing.v", 1003, 428); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 982, 444); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 787, 434); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("DATA_processing.v", 1023, 430); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectCodeEditor("DATA_processing.v", 430, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 400, 430); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 642, 434); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 187, 443); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Aug 06 12:26:29 2018] Launched synth_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Mon Aug 06 12:26:29 2018] Launched impl_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_DESIGN_RUNS_WINDOW, "Design Runs"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_DESIGN_RUNS_WINDOW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-DLC9-Port_#0001.Hub_#0003 is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// Elapsed time: 400 seconds
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_CLOSED_TARGETS, "Closed Targets"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem((HResource) null, "localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7a200t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1305.285 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 23 seconds
+// Elapsed time: 21 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-DLC9-Port_#0001.Hub_#0003 is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// HMemoryUtils.trashcanNow. Engine heap size: 983 MB. GUI used memory: 118 MB. Current time: 8/6/18 12:36:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 983 MB. GUI used memory: 124 MB. Current time: 8/6/18 1:06:59 PM CST
+// [GUI Memory]: 175 MB (+337kb) [02:06:00]
+// HMemoryUtils.trashcanNow. Engine heap size: 983 MB. GUI used memory: 158 MB. Current time: 8/6/18 1:37:00 PM CST
+// [GUI Memory]: 184 MB (+130kb) [02:18:38]
+// [GUI Memory]: 194 MB (+843kb) [02:25:23]
+// Elapsed time: 5022 seconds
+selectCodeEditor("DATA_processing.v", 412, 444); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 379, 418); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 391, 428); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("DATA_processing.v", 642, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("DATA_processing.v", 411, 423); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 402, 441); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 397, 436); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 393, 429); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 995, 440); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("DATA_processing.v", 726, 353); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Aug 06 13:58:27 2018] Launched synth_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Mon Aug 06 13:58:27 2018] Launched impl_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 28 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near begin. [H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/DATA_processing.v:71]. ]", 5, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;H:\UserFiles\Desktop\aaa\OV7670_ok2\OV7670_1\OV7670_1\OV7670_1.srcs\sources_1\new\DATA_processing.v;-;;-;16;-;line;-;71;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 1222, 435); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Aug 06 13:59:10 2018] Launched synth_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Mon Aug 06 13:59:10 2018] Launched impl_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 983 MB. GUI used memory: 134 MB. Current time: 8/6/18 2:07:00 PM CST
+// Elapsed time: 672 seconds
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_CLOSED_TARGETS, "Closed Targets"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem((HResource) null, "localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7a200t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1386.734 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 23 seconds
+// Elapsed time: 21 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-DLC9-Port_#0001.Hub_#0003 is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// Elapsed time: 348 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0) ; Closed", 1, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0)", 0, false); // f:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0) ; Closed", 1, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target {localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1392.625 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 22 seconds
+// Elapsed time: 21 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 125 seconds
+selectCodeEditor("DATA_processing.v", 467, 424); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 417, 435); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 358, 443); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 338, 448); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 84 seconds
+selectCodeEditor("DATA_processing.v", 277, 425); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 343, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 621, 428); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Aug 06 14:20:55 2018] Launched synth_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Mon Aug 06 14:20:55 2018] Launched impl_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+// Elapsed time: 35 seconds
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (r:JPanel, cl:JFrame)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_YOU_ABOUT_TO_CANCEL_YOUR_RUNNING_Delete Files", "Delete Files"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+selectCodeEditor("DATA_processing.v", 180, 439); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 108, 451); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 141, 430); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 145, 436); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 141, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 289, 384); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 331, 403); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 64, 464); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 274, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("DATA_processing.v", 183, 466); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 345 seconds
+selectCodeEditor("DATA_processing.v", 96, 393); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 109, 383); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 1187, 310); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 252, 318); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("DATA_processing.v", 54, 305); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("DATA_processing.v", 1208, 307); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("DATA_processing.v", 235, 390); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 235, 390, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 201, 351); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 40 seconds
+selectCodeEditor("DATA_processing.v", 233, 328); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 233, 328, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 158, 308); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 172, 112); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 58, 111); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 88, 126); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("DATA_processing.v", 96, 150); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 4, 167); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 215, 352); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("DATA_processing.v", 174, 230); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 174, 230, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 320, 332); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 122, 352); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 123, 340); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 131, 344); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 387, 360); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+selectCodeEditor("DATA_processing.v", 306, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 306, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 306, 159, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 306, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 260, 222); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 260, 222, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 247, 207); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 1, 310); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 1, 310, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 4, 361); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 4, 361, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 3, 358); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 3, 358, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 1, 402); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 2, 402, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 203, 422); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 205, 285); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 211, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 218, 265); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 204, 208); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 211, 297); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 220, 312); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 214, 267); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("DATA_processing.v", 167, 290); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 167, 290, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 262, 272); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 265, 306); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 265, 306, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 265, 306); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 212, 336); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("DATA_processing.v", 318, 478); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 305, 510); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 305, 510, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 209, 504); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectCodeEditor("DATA_processing.v", 170, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 170, 262, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 142, 463); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("ov7670_vga.v", 251, 445); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_vga.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_vga.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 145, 199); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 138, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_vga.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_1.xdc", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("ov7670_1.xdc", 455, 526); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_1.xdc", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 164, 243); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 164, 243, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_vga.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_1.xdc", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 341, 422); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 341, 422, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_1.xdc", 350, 420); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 350, 420, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 392, 437); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 392, 437, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 373, 461); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 373, 461, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 400, 488); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 400, 488, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 466, 442); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 374, 515); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 374, 515, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 393, 537); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 393, 537, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("ov7670_1.xdc", 225, 412); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 225, 412, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_1.xdc", 230, 466); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 230, 466, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_1.xdc", 231, 507); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 231, 507, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 983 MB. GUI used memory: 122 MB. Current time: 8/6/18 2:37:00 PM CST
+// Elapsed time: 139 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("DATA_processing.v", 343, 242); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("DATA_processing.v", 87, 240); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 87, 240, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 157, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("DATA_processing.v", 164, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 164, 235, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 164, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 135, 368); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 135, 368, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 125, 479); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 125, 479, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 176, 455); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 176, 455, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 163, 519); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 163, 519, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 201, 418); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 201, 418, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 171, 458); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 171, 458, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 173, 421); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 173, 421, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 161, 441); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 161, 441, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("DATA_processing.v", 140, 366); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("DATA_processing.v", 130, 232); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 223, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 369, 267); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 353, 263); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 353, 263); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 353, 263, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 624, 261); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 949, 247); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 952, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 133, 369); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 133, 369, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 389, 383); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 360, 397); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 360, 397, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 614, 391); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 143, 488); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 143, 488, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 226, 484); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 377, 450); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 382, 443); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 382, 443, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 359, 436); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 359, 436, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 623, 439); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 595, 437); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("DATA_processing.v", 134, 285); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 243, 293); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 251, 297); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 369, 311); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 348, 316); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 597, 316); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("DATA_processing.v", 124, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 129, 411); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 222, 412); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("DATA_processing.v", 373, 440); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 624, 438); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("DATA_processing.v", 154, 462); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("DATA_processing.v", 378, 405); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 362, 414); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 362, 414, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("DATA_processing.v", 197, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 215, 438); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 955, 459); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 877, 465); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 1186, 466); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 1195, 461); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 1131, 464); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 1070, 461); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("DATA_processing.v", 116, 487); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 203, 478); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 221, 492); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 333, 516); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("DATA_processing.v", 933, 435); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("DATA_processing.v", 108, 474); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 206, 469); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("DATA_processing.v", 344, 489); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("DATA_processing.v", 115, 280); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("DATA_processing.v", 331, 309); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 331, 309, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DATA_processing.v", 950, 313); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // ap:bI (cl:JFrame)
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Aug 06 14:44:24 2018] Launched synth_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Mon Aug 06 14:44:24 2018] Launched impl_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 349 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cfg_reg.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 76 seconds
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-DLC9-Port_#0001.Hub_#0003 is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // w:Y (v:H, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 27, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0) ; Closed", 1, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0)", 0, false); // f:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0) ; Closed", 1, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target {localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1395.797 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 22 seconds
+// Elapsed time: 21 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 355 seconds
+selectCodeEditor("DATA_processing.v", 348, 245); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("DATA_processing.v", 98, 163); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 187, 165); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 109, 156); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 214, 163); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 119, 290); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 209, 284); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 199, 239); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 203, 362); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 202, 411); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 118, 465); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("DATA_processing.v", 205, 462); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 63 seconds
+selectCodeEditor("DATA_processing.v", 205, 505); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 115, 215); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 105, 337); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 205, 332); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 113, 393); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 187, 378); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 118, 510); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("DATA_processing.v", 338, 346); // bj:J (JPanel:JComponent, cl:JFrame)
+selectButton(RDIResourceCommand.RDICommands_OPTIONS, "options"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_OPTIONS
+// : addNotify
+selectButton("Fonts", "Fonts"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, U:br)
+selectButton(PAResourceTtoZ.ToolOptionsFontPage_RESET_TO_DEFAULTS, "Reset to Defaults"); // E:JXButton (JPanel:JComponent, U:br)
+selectButton("PAResourceTtoZ.ToolOptionsFontPage_OK_TO_RESET_FONT_STYLE_BACK_TO_DEFAULT_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// Elapsed time: 23 seconds
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, U:br)
+dismissDialog("Vivado Options"); // U:br (cl:JFrame)
+selectCodeEditor("DATA_processing.v", 286, 304); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 348, 338); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 585, 343); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 589, 334); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 960, 340); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("DATA_processing.v", 1189, 339); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 1193, 329); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 1185, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("DATA_processing.v", 356, 465); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 632, 462); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 968, 458); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 1222, 462); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 367, 436); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 969, 437); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 1219, 436); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 370, 482); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 619, 491); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 963, 488); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("DATA_processing.v", 1211, 481); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 367, 458); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 978, 461); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 370, 506); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 978, 506); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 364, 481); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 618, 485); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 942, 486); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("DATA_processing.v", 367, 240); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 616, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 1065, 311); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Aug 06 15:04:56 2018] Launched synth_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Mon Aug 06 15:04:56 2018] Launched impl_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 983 MB. GUI used memory: 129 MB. Current time: 8/6/18 3:07:01 PM CST
+// Elapsed time: 358 seconds
+selectCodeEditor("DATA_processing.v", 630, 201); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 40 seconds
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-DLC9-Port_#0001.Hub_#0003 is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_CLOSED_TARGETS, "Closed Targets"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_CLOSED_TARGETS, "Closed Targets"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0) ; Closed", 1, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0)", 0, false); // f:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0) ; Closed", 1, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target {localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1508.320 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 22 seconds
+// Elapsed time: 21 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P:a (Workspace:JPanel, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P:a (Workspace:JPanel, cl:JFrame)
+// Elapsed time: 1265 seconds
+selectCodeEditor("DATA_processing.v", 291, 408); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 73 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cfg_reg.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 0, 214); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_FILESET_WINDOW, "Sources"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_FILESET_WINDOW
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), your_instance_name - ila_0 (ila_0.xci)]", 7, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), your_instance_name - ila_0 (ila_0.xci)]", 7, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// T:cp (cl:JFrame):  Re-customize IP : addNotify
+// TclEventType: LOAD_FEATURE
+// t:P (cl:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // T:cp (cl:JFrame)
+selectComboBox("Sample Data Depth (C_DATA_DEPTH)", "8192", 3); // x:f (G:JPanel, t:P)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+// Tcl Message: set_property -dict [list CONFIG.C_DATA_DEPTH {8192}] [get_ips ila_0] 
+// t:P (cl:JFrame): Re-customize IP: addNotify
+// cp:P (t:P):  Re-customize IP : addNotify
+// TclEventType: FILESET_UPDATE_IP
+// aB:ag (cl:JFrame): Generate Output Products: addNotify
+dismissDialog("Re-customize IP"); // cp:P (t:P)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aB:ag)
+// cp:P (cl:JFrame):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/ip/ila_0/ila_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run ila_0_synth_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_run -jobs 4 ila_0_synth_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Aug 06 15:35:41 2018] Launched ila_0_synth_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/ila_0_synth_1/runme.log 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (r:JPanel, cl:JFrame)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run ila_0_synth_1 -noclean_dir  
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("ov7670_vga.v", 131, 705); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 251, 559); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 251, 559, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_vga.v", 251, 559); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 983 MB. GUI used memory: 113 MB. Current time: 8/6/18 3:37:03 PM CST
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("ov7670_vga.v", 156, 369); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 381, 289); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 386, 289); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 275, 291); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 388, 290); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 15 seconds
+selectCodeEditor("ov7670_vga.v", 249, 293); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 252, 314); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 250, 335); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 246, 360); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 92, 373); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 240, 354); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 246, 395); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 244, 417); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 247, 441); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 243, 464); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 205, 486); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 429, 304); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 29, 264); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 74, 265); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 344, 304); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 19 seconds
+selectCodeEditor("ov7670_vga.v", 617, 215); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cfg_reg.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 111, 699); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, camera_configure (camera_configure.v)]", 6); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, camera_configure (camera_configure.v)]", 6, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, camera_configure (camera_configure.v), SCCB1 - SCCB_interface (SCCB_interface.v)]", 9, false, true, false, false, false, false); // A:k (H:JPanel, cl:JFrame) - Shift Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, camera_configure (camera_configure.v), rom1 - OV7670_config_rom (OV7670_config_rom.v)]", 7, false, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// az:P (cl:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, az:P)
+dismissDialog("Remove Sources"); // az:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/camera_configure.v H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/OV7670_config_rom.v H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/OV7670_config.v H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/SCCB_interface.v} 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SCCB_TEST (SCCB_sender.v)]", 6); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SCCB_TEST (SCCB_sender.v)]", 6, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SCCB_TEST (SCCB_sender.v), UT - SCCB_sender (SCCB_sender.v)]", 7, false, true, false, false, false, false); // A:k (H:JPanel, cl:JFrame) - Shift Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SCCB_TEST (SCCB_sender.v), UT - SCCB_sender (SCCB_sender.v)]", 7, false, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// az:P (cl:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, az:P)
+dismissDialog("Remove Sources"); // az:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/SCCB_sender.v 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), I_CFG_OV7670 - cfg_ov7670 (cfg_ov7670.v)]", 3); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), DATA_processing - DATA_processing (DATA_processing.v)]", 6); // A:k (H:JPanel, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cl:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, (String) null); // w:JideButton (JPanel:JComponent, b:g)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // ab:JMenuItem (ai:JPopupMenu, b:g)
+// Elapsed time: 21 seconds
+String[] filenames31467 = {"H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/SCCB_interface.v", "H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/SCCB_sender.v"};
+setFileChooser(filenames31467);
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 25 seconds
+dismissDialog("Add Sources"); // b:g (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/SCCB_sender.v H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/SCCB_interface.v} 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SCCB_TEST (SCCB_sender.v)]", 9); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, reg_config (reg_config.v)]", 11); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, reg_config (reg_config.v)]", 11, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, reg_config (reg_config.v), u1 - i2c_com (i2c_com.v)]", 12, false, true, false, false, false, false); // A:k (H:JPanel, cl:JFrame) - Shift Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, reg_config (reg_config.v), u1 - i2c_com (i2c_com.v)]", 12, false, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// az:P (cl:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, az:P)
+dismissDialog("Remove Sources"); // az:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/reg_config.v H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/i2c_com.v} 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, OV7670_CAPTURE (OV7670_CAPTURE.v)]", 11, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SCCB_interface (SCCB_interface.v)]", 12, false, true, false, false, false, false); // A:k (H:JPanel, cl:JFrame) - Shift Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, camera_read (camera_read.v)]", 13, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SCCB_interface (SCCB_interface.v)]", 12, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SCCB_interface (SCCB_interface.v)]", 12, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, camera_read (camera_read.v)]", 13, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, OV7670_CAPTURE (OV7670_CAPTURE.v)]", 11, false, false, true, false, false, false); // A:k (H:JPanel, cl:JFrame) - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, OV7670_CAPTURE (OV7670_CAPTURE.v)]", 11, false, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// az:P (cl:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, az:P)
+dismissDialog("Remove Sources"); // az:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/camera_read.v H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/OV7670_CAPTURE.v} 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SCCB_interface (SCCB_interface.v)]", 11, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SCCB_interface (SCCB_interface.v)]", 11, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SCCB_interface (SCCB_interface.v)]", 11, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), I_CFG_OV7670 - cfg_ov7670 (cfg_ov7670.v), I_SCCB_sender - SCCB_sender (SCCB_sender.v)]", 5, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), I_CFG_OV7670 - cfg_ov7670 (cfg_ov7670.v), I_SCCB_sender - SCCB_sender (SCCB_sender.v)]", 5, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), I_CFG_OV7670 - cfg_ov7670 (cfg_ov7670.v), I_CFG_REG - cfg_reg (cfg_reg.v)]", 4, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), I_CFG_OV7670 - cfg_ov7670 (cfg_ov7670.v), I_CFG_REG - cfg_reg (cfg_reg.v)]", 4, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), I_CFG_OV7670 - cfg_ov7670 (cfg_ov7670.v)]", 3, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), I_CFG_OV7670 - cfg_ov7670 (cfg_ov7670.v)]", 3, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SCCB_interface (SCCB_interface.v)]", 9, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SCCB_interface (SCCB_interface.v)]", 9, false, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// az:P (cl:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, az:P)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+dismissDialog("Remove Sources"); // az:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/SCCB_interface.v 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_DESIGN_RUNS_WINDOW, "Design Runs"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_DESIGN_RUNS_WINDOW
+selectCodeEditor("cfg_ov7670.v", 269, 175); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Aug 06 15:41:53 2018] Launched synth_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Mon Aug 06 15:41:53 2018] Launched impl_1... Run output will be captured here: H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cfg_ov7670.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cfg_reg.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_1.xdc", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 454, 191); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 587 seconds
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-DLC9-Port_#0001.Hub_#0003 is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// Elapsed time: 18 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_CLOSED_TARGETS, "Closed Targets"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem((HResource) null, "localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7a200t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1508.320 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 22 seconds
+// Elapsed time: 21 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 68 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("cfg_reg.v", 379, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // o:ao (f:JComboBox, cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-DLC9-Port_#0001.Hub_#0003 is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// Elapsed time: 66 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), DATA_processing - DATA_processing (DATA_processing.v)]", 4, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), DATA_processing - DATA_processing (DATA_processing.v)]", 4, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cl:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, (String) null); // w:JideButton (JPanel:JComponent, b:g)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // ab:JMenuItem (ai:JPopupMenu, b:g)
+// I:ag (b:g): Create Source File: addNotify
+// Elapsed time: 16 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Co"); // ao:JTextField (JPanel:JComponent, I:ag)
+// Elapsed time: 73 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Coodernate"); // ao:JTextField (JPanel:JComponent, I:ag)
+// Elapsed time: 46 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Coordinate_calculate"); // ao:JTextField (JPanel:JComponent, I:ag)
+// Elapsed time: 24 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:ag)
+dismissDialog("Create Source File"); // I:ag (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 163 seconds
+dismissDialog("Add Sources"); // b:g (cl:JFrame)
+// Tcl Message: close [ open H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/Coordinate_calculate.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/new/Coordinate_calculate.v 
+// L:ag (cl:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, L:ag)
+// TclEventType: DG_GRAPH_STALE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Define Module"); // L:ag (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 111 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), DATA_processing - DATA_processing (DATA_processing.v)]", 4); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coordinate_calculate (Coordinate_calculate.v)]", 9, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coordinate_calculate (Coordinate_calculate.v)]", 9, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("Coordinate_calculate.v", 290, 445); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 42 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Coordinate_calculate.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 36 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 6); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Coordinate_calculate.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 236, 28); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 255, 9); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 255, 9, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 6); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+typeControlKey((HResource) null, "Coordinate_calculate.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Coordinate_calculate.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("ov7670_vga.v", 324, 399); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 324, 399, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_vga.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 6); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+typeControlKey((HResource) null, "Coordinate_calculate.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Coordinate_calculate.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 263, 367); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 263, 367, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_vga.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 6); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+typeControlKey((HResource) null, "Coordinate_calculate.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Coordinate_calculate.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 284, 393); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 284, 393, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_vga.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 6); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+typeControlKey((HResource) null, "Coordinate_calculate.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Coordinate_calculate.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 272, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 272, 235, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_vga.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 6); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+typeControlKey((HResource) null, "Coordinate_calculate.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 204 MB (+278kb) [04:39:54]
+// HMemoryUtils.trashcanNow. Engine heap size: 983 MB. GUI used memory: 161 MB. Current time: 8/6/18 4:07:03 PM CST
+// Elapsed time: 542 seconds
+selectCodeEditor("Coordinate_calculate.v", 86, 484); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Coordinate_calculate.v", 94, 525); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Coordinate_calculate.v", 94, 525, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "Coordinate_calculate.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Coordinate_calculate.v", 99, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Coordinate_calculate.v", 570, 498); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// cp:P (cl:JFrame):  IP Catalog : addNotify
+dismissDialog("IP Catalog"); // cp:P (cl:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "divide"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cl:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Divider Generator ; AXI4-Stream ; Production ; Included ; xilinx.com:ip:div_gen:5.1", 3, "Divider Generator", 0, false); // O:av (JViewport:JComponent, cl:JFrame)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Divider Generator ; AXI4-Stream ; Production ; Included ; xilinx.com:ip:div_gen:5.1", 3); // O:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Divider Generator ; AXI4-Stream ; Production ; Included ; xilinx.com:ip:div_gen:5.1", 3, "Divider Generator", 0, false, false, false, false, false, true); // O:av (JViewport:JComponent, cl:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// t:P (cl:JFrame): Customize IP: addNotify
+// Elapsed time: 21 seconds
+setText("Dividend Width", "32"); // O:ao (cH:N, t:P)
+setText("Divisor Width", "32"); // O:ao (cH:N, t:P)
+selectComboBox("Operand Sign (operand_sign)", "Unsigned", 0); // by:f (G:JPanel, t:P)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Options", 1); // cG:g (G:JPanel, t:P)
+// Elapsed time: 17 seconds
+setText("Component Name", "div_32_32"); // O:ao (bS:N, t:P)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Customize IP"); // t:P (cl:JFrame)
+// TclEventType: CREATE_IP_CORE
+// Tcl Message: create_ip -name div_gen -vendor xilinx.com -library ip -version 5.1 -module_name div_32_32 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.dividend_and_quotient_width {32} CONFIG.divisor_width {32} CONFIG.operand_sign {Unsigned} CONFIG.fractional_width {32} CONFIG.latency {34}] [get_ips div_32_32] 
+// cp:P (cl:JFrame):  Customize IP : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files h:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/ip/div_32_32/div_32_32.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'div_32_32'... 
+// aB:ag (cl:JFrame): Generate Output Products: addNotify
+dismissDialog("Customize IP"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aB:ag)
+// cp:P (cl:JFrame):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  h:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/OV7670_1.srcs/sources_1/ip/div_32_32/div_32_32.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'div_32_32'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'div_32_32'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'C Simulation' target for IP 'div_32_32'... INFO: [IP_Flow 19-1686] Generating 'Test Bench' target for IP 'div_32_32'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'div_32_32'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_ADD
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 8/6/18 4:13:31 PM CST
+# Process ID: 2468
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.g.e: Error: Wrapper with null DB pointer (See H:/UserFiles/Desktop/aaa/OV7670_ok2/OV7670_1/OV7670_1/vivado_pid2468.debug)
+*/

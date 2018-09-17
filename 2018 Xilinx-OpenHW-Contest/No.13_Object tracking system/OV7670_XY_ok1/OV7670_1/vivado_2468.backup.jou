@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat Aug 04 09:29:47 2018
+# Process ID: 7460
+# Log file: H:/UserFiles/Desktop/OV7670_1/OV7670_1/vivado.log
+# Journal file: H:/UserFiles/Desktop/OV7670_1/OV7670_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.xpr
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1]
+run_hw_ila hw_ila_1
+wait_on_hw_ila hw_ila_1
+display_hw_ila_data [upload_hw_ila_data hw_ila_1]
+run_hw_ila hw_ila_1
+wait_on_hw_ila hw_ila_1
+display_hw_ila_data [upload_hw_ila_data hw_ila_1]
+run_hw_ila hw_ila_1
+wait_on_hw_ila hw_ila_1
+display_hw_ila_data [upload_hw_ila_data hw_ila_1]
+run_hw_ila hw_ila_1
+set_property PROBES.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw_target
+close_hw_target
+open_hw_target {localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003}
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1]
+run_hw_ila hw_ila_1
+wait_on_hw_ila hw_ila_1
+display_hw_ila_data [upload_hw_ila_data hw_ila_1]
+run_hw_ila hw_ila_1
+wait_on_hw_ila hw_ila_1
+display_hw_ila_data [upload_hw_ila_data hw_ila_1]
+close_hw_target
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -noclean_dir 

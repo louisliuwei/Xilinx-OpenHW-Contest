@@ -1,0 +1,1737 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 8724
+
+Current time: 	8/8/18 1:03:53 AM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	E:/VIVADO/Vivado/2015.2/tps/win64/jre
+
+User name: 	Wangtianpeng
+User directory: H:/Desktop/OV7670_XY_ok1/OV7670_1
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/Wangtianpeng/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/Wangtianpeng/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	198 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 630 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: H:\Desktop\OV7670_XY_ok1\OV7670_1\OV7670_1.xpr. Version: Vivado v2015.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 56 MB (+55895kb) [00:00:04]
+// [Engine Memory]: 424 MB (+292637kb) [00:00:04]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 469 MB (+25670kb) [00:00:04]
+// [GUI Memory]: 109 MB (+53068kb) [00:00:05]
+// [Engine Memory]: 559 MB (+69658kb) [00:00:05]
+// [Engine Memory]: 608 MB (+22219kb) [00:00:06]
+// [GUI Memory]: 117 MB (+2720kb) [00:00:06]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'H:/UserFiles/Desktop/OV7670_XY_ok1/OV7670_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/VIVADO/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 635 MB. GUI used memory: 49 MB. Current time: 8/8/18 1:03:53 AM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: OV7670_1; location: H:/Desktop/OV7670_XY_ok1/OV7670_1; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 859.719 ; gain = 233.996 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 642 MB (+2925kb) [00:02:47]
+// [GUI Memory]: 124 MB (+529kb) [00:06:01]
+// Elapsed time: 354 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 120 MB. Current time: 8/8/18 1:09:52 AM CST
+// [GUI Memory]: 132 MB (+1865kb) [00:07:21]
+// [GUI Memory]: 138 MB (+54kb) [00:07:38]
+// [GUI Memory]: 145 MB (+16kb) [00:08:11]
+// [GUI Memory]: 152 MB (+2kb) [00:08:45]
+// [Engine Memory]: 680 MB (+6221kb) [00:09:06]
+// [GUI Memory]: 160 MB (+185kb) [00:10:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 710 MB. GUI used memory: 83 MB. Current time: 8/8/18 1:14:23 AM CST
+// [GUI Memory]: 183 MB (+15205kb) [00:16:03]
+// [GUI Memory]: 196 MB (+4639kb) [00:16:07]
+// Elapsed time: 617 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cl:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, (String) null); // w:JideButton (JPanel:JComponent, b:g)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // ab:JMenuItem (ai:JPopupMenu, b:g)
+// I:ag (b:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Moter_X"); // ao:JTextField (JPanel:JComponent, I:ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:ag)
+dismissDialog("Create Source File"); // I:ag (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 8 seconds
+dismissDialog("Add Sources"); // b:g (cl:JFrame)
+// Tcl Message: close [ open H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/Moter_X.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/Moter_X.v 
+// L:ag (cl:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, L:ag)
+// TclEventType: DG_GRAPH_STALE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Define Module"); // L:ag (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 207 MB (+1216kb) [00:16:35]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cl:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, (String) null); // w:JideButton (JPanel:JComponent, b:g)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // ab:JMenuItem (ai:JPopupMenu, b:g)
+// I:ag (b:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Moter_Y"); // ao:JTextField (JPanel:JComponent, I:ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:ag)
+dismissDialog("Create Source File"); // I:ag (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 11 seconds
+dismissDialog("Add Sources"); // b:g (cl:JFrame)
+// Tcl Message: close [ open H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/Moter_Y.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/Moter_Y.v 
+// L:ag (cl:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, L:ag)
+// TclEventType: DG_GRAPH_STALE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Define Module"); // L:ag (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cl:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// [GUI Memory]: 219 MB (+789kb) [00:17:18]
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, (String) null); // w:JideButton (JPanel:JComponent, b:g)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // ab:JMenuItem (ai:JPopupMenu, b:g)
+// I:ag (b:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Motor_position_detect"); // ao:JTextField (JPanel:JComponent, I:ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:ag)
+dismissDialog("Create Source File"); // I:ag (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 5 seconds
+dismissDialog("Add Sources"); // b:g (cl:JFrame)
+// Tcl Message: close [ open H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/Motor_position_detect.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/Motor_position_detect.v 
+// L:ag (cl:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, L:ag)
+// TclEventType: DG_GRAPH_STALE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Define Module"); // L:ag (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Moter_X (Moter_X.v)]", 8, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Moter_X (Moter_X.v)]", 8, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 19 seconds
+selectCodeEditor("Moter_X.v", 549, 277); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Moter_X.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Moter_Y (Moter_Y.v)]", 9, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Moter_Y (Moter_Y.v)]", 9, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("Moter_Y.v", 711, 344); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Moter_Y.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Motor_position_detect (Motor_position_detect.v)]", 10, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Motor_position_detect (Motor_position_detect.v)]", 10, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("Motor_position_detect.v", 767, 241); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Motor_position_detect.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 101 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// [Engine Memory]: 714 MB (+401kb) [00:19:56]
+// Elapsed time: 21 seconds
+selectCodeEditor("Moter_X.v", 214, 166); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 214, 166, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 125 MB. Current time: 8/8/18 1:24:03 AM CST
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Motor_position_detect (Motor_position_detect.v)]", 10, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Motor_position_detect (Motor_position_detect.v)]", 10, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 24 seconds
+selectCodeEditor("Motor_position_detect.v", 292, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 292, 184, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Motor_position_detect.v", 292, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Motor_position_detect.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Motor_position_detect.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Motor_position_detect.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 200, 216); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 311, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 55 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_position_detect.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 275, 261); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("Motor_position_detect.v", 286, 312); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 286, 312, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Motor_position_detect.v", 286, 312); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Motor_position_detect.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Motor_position_detect.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Motor_position_detect.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 130, 336); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 227, 332); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("Motor_position_detect.v", 159, 300); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("Motor_position_detect.v", 187, 83); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 187, 83, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "Motor_position_detect.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 353, 506); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 353, 506, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 113 seconds
+selectCodeEditor("Motor_position_detect.v", 293, 506); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 274, 510); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 293, 509); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 276, 506); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 205, 149); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 205, 149, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Motor_position_detect.v", 194, 157); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 194, 157, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "Motor_position_detect.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 280, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Motor_position_detect.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 42 seconds
+selectCodeEditor("Motor_position_detect.v", 482, 438); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 153, 419); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 153, 419, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "Motor_position_detect.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 464, 508); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Motor_position_detect.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("Motor_position_detect.v", 272, 542); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 318, 520); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 151, 106); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 151, 106, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "Motor_position_detect.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 289, 533); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 289, 533, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "Motor_position_detect.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 482, 504); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 482, 504, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "Motor_position_detect.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 445, 542); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Motor_position_detect.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 624, 535); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 805, 551); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Motor_position_detect.v", 603, 536); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("Motor_position_detect.v", 649, 531); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 752, 533); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 44 seconds
+selectCodeEditor("Motor_position_detect.v", 803, 489); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("ov7670_vga.v", 309, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 297, 281); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 297, 281, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_vga.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("ov7670_vga.v", 303, 299); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 308, 282); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 308, 282, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_vga.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 257, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 257, 218, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_vga.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 241, 460); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_vga.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_vga.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 211, 305); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 148, 357); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_vga.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 148, 357); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 148, 357, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_vga.v", 148, 357); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_vga.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_vga.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_vga.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 137, 389); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("Moter_X.v", 576, 261); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 32 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_position_detect.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_Y.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 143 MB. Current time: 8/8/18 1:34:18 AM CST
+// [Engine Memory]: 756 MB (+6217kb) [00:30:35]
+// Elapsed time: 13 seconds
+selectCodeEditor("ov7670_vga.v", 270, 100); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_vga.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 42 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("Moter_X.v", 771, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 683, 269); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("Moter_X.v", 638, 361); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 638, 361, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Moter_X.v", 638, 361); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 351, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 342, 251); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 342, 251, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "Moter_X.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 358, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 358, 294, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Moter_X.v", 358, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 334, 334); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 352, 366); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 352, 366, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "Moter_X.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("Moter_X.v", 548, 315); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_Y.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_position_detect.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_Y.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 16 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, ov7670_1.xdc]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, ov7670_1.xdc]", 6, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_1.xdc", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 499, 566); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 116, 280); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 116, 280, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_vga.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_1.xdc", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 390, 481); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 390, 481, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 410, 521); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 410, 521, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 375, 552); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 375, 552, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_1.xdc", 385, 541); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 385, 541, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 368, 535); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 368, 535, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_1.xdc", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 429, 561); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 429, 561, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "ov7670_1.xdc", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 235, 486); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 235, 486, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_1.xdc", 228, 538); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 228, 538, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 341, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Wed Aug 08 01:38:34 2018] Launched synth_1... Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Wed Aug 08 01:38:34 2018] Launched impl_1... Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 158 MB. Current time: 8/8/18 1:40:18 AM CST
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 322 seconds
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// [Engine Memory]: 798 MB (+4795kb) [00:40:15]
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [Engine Memory]: 846 MB (+8012kb) [00:40:15]
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 846 MB. GUI used memory: 166 MB. Current time: 8/8/18 1:44:03 AM CST
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 86 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_position_detect.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_position_detect.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14); // w:Y (v:H, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // w:Y (v:H, cl:JFrame)
+// ap:bI (cl:JFrame): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // ap:bI (cl:JFrame)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: ov7670_vga 
+// TclEventType: ELABORATE_FINISH
+// [Engine Memory]: 928 MB (+42137kb) [00:42:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 984 MB. GUI used memory: 167 MB. Current time: 8/8/18 1:46:13 AM CST
+// [Engine Memory]: 1,145 MB (+178546kb) [00:42:31]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,171 MB. GUI used memory: 167 MB. Current time: 8/8/18 1:46:20 AM CST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,232 MB (+31480kb) [00:42:36]
+// TclEventType: DESIGN_NEW
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Synth 8-994] x_cnt is declared here [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/VGA.v:32] 
+// Tcl Message: INFO: [Synth 8-994] y_cnt is declared here [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/VGA.v:33] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:01:51 ; elapsed = 00:42:26 . Memory (MB): peak = 1103.898 ; gain = 927.172 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'ov7670_vga' [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/ov7670_vga.v:5] INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [H:/Desktop/OV7670_XY_ok1/OV7670_1/.Xil/Vivado-8724-DESKTOP-AI64EI3/realtime/clk_wiz_0_stub.v:6] INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (1#1) [H:/Desktop/OV7670_XY_ok1/OV7670_1/.Xil/Vivado-8724-DESKTOP-AI64EI3/realtime/clk_wiz_0_stub.v:6] INFO: [Synth 8-638] synthesizing module 'cfg_ov7670' [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/cfg_ov7670.v:23] 
+// Tcl Message: 	Parameter par_camera_address bound to: 8'b01000010  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'cfg_reg' [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/cfg_reg.v:23] 
+// Tcl Message: 	Parameter LEN bound to: 122 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'cfg_reg' (2#1) [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/cfg_reg.v:23] INFO: [Synth 8-638] synthesizing module 'SCCB_sender' [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/SCCB_sender.v:51] INFO: [Synth 8-155] case statement is not full and has no default [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/SCCB_sender.v:180] INFO: [Synth 8-256] done synthesizing module 'SCCB_sender' (3#1) [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/SCCB_sender.v:51] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'cfg_ov7670' (4#1) [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/cfg_ov7670.v:23] INFO: [Synth 8-638] synthesizing module 'DATA_processing' [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/DATA_processing.v:23] 
+// Tcl Message: 	Parameter Hde_start bound to: 144 - type: integer  	Parameter Vde_start bound to: 35 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [H:/Desktop/OV7670_XY_ok1/OV7670_1/.Xil/Vivado-8724-DESKTOP-AI64EI3/realtime/blk_mem_gen_0_stub.v:7] INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_0' (5#1) [H:/Desktop/OV7670_XY_ok1/OV7670_1/.Xil/Vivado-8724-DESKTOP-AI64EI3/realtime/blk_mem_gen_0_stub.v:7] INFO: [Synth 8-256] done synthesizing module 'DATA_processing' (6#1) [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/DATA_processing.v:23] INFO: [Synth 8-638] synthesizing module 'VGA' [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/VGA.v:23] 
+// Tcl Message: 	Parameter LinePeriod bound to: 800 - type: integer  	Parameter H_SyncPulse bound to: 96 - type: integer  	Parameter H_BackPorch bound to: 48 - type: integer  	Parameter H_ActivePix bound to: 640 - type: integer  	Parameter H_FrontPorch bound to: 16 - type: integer  	Parameter Hde_start bound to: 144 - type: integer  	Parameter Hde_end bound to: 784 - type: integer  	Parameter FramePeriod bound to: 525 - type: integer  	Parameter V_SyncPulse bound to: 2 - type: integer  	Parameter V_BackPorch bound to: 33 - type: integer  	Parameter V_ActivePix bound to: 480 - type: integer  	Parameter V_FrontPorch bound to: 10 - type: integer  	Parameter Vde_start bound to: 35 - type: integer  	Parameter Vde_end bound to: 515 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'VGA' (7#1) [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/VGA.v:23] INFO: [Synth 8-638] synthesizing module 'Coordinate_calculate' [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/Coordinate_calculate.v:23] 
+// Tcl Message: 	Parameter X_num bound to: 640 - type: integer  	Parameter Y_num bound to: 480 - type: integer  	Parameter Area_edge_X bound to: 100 - type: integer  	Parameter Area_edge_Y bound to: 80 - type: integer  
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'DIV_32_32' [H:/Desktop/OV7670_XY_ok1/OV7670_1/.Xil/Vivado-8724-DESKTOP-AI64EI3/realtime/DIV_32_32_stub.v:7] INFO: [Synth 8-256] done synthesizing module 'DIV_32_32' (8#1) [H:/Desktop/OV7670_XY_ok1/OV7670_1/.Xil/Vivado-8724-DESKTOP-AI64EI3/realtime/DIV_32_32_stub.v:7] INFO: [Synth 8-256] done synthesizing module 'Coordinate_calculate' (9#1) [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/Coordinate_calculate.v:23] INFO: [Synth 8-638] synthesizing module 'Moter_X' [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/Moter_X.v:24] 
+// Tcl Message: 	Parameter angle_min_num bound to: 50000 - type: integer  	Parameter angle_mid_num bound to: 150000 - type: integer  	Parameter angle_max_num bound to: 250000 - type: integer  	Parameter angle_period_num bound to: 300000 - type: integer  	Parameter clk_PWM_num_half bound to: 500000 - type: integer  	Parameter clk_PWM_num bound to: 1000000 - type: integer  	Parameter Add_P_parameter bound to: 7 - type: integer  	Parameter Sub_P_parameter bound to: 7 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'Moter_X' (10#1) [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/Moter_X.v:24] INFO: [Synth 8-638] synthesizing module 'Motor_Y' [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/Moter_Y.v:24] 
+// Tcl Message: 	Parameter angle_min_num bound to: 50000 - type: integer  	Parameter angle_mid_num bound to: 150000 - type: integer  	Parameter angle_max_num bound to: 250000 - type: integer  	Parameter angle_period_num bound to: 300000 - type: integer  	Parameter clk_PWM_num_half bound to: 500000 - type: integer  	Parameter clk_PWM_num bound to: 1000000 - type: integer  	Parameter Add_P_parameter bound to: 7 - type: integer  	Parameter Sub_P_parameter bound to: 7 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'Motor_Y' (11#1) [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/Moter_Y.v:24] INFO: [Synth 8-638] synthesizing module 'Motor_position_detect' [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/Motor_position_detect.v:23] 
+// Tcl Message: 	Parameter X_size_mul bound to: 2 - type: integer  	Parameter X_size_div bound to: 2 - type: integer  	Parameter Y_size_mul bound to: 6 - type: integer  	Parameter Y_size_div bound to: 2 - type: integer  	Parameter X_pixel bound to: 640 - type: integer  	Parameter Y_pixel bound to: 480 - type: integer  	Parameter Div_motor bound to: 200000 - type: integer  	Parameter Rdge_X_left bound to: 50000 - type: integer  	Parameter Rdge_Y_up bound to: 50000 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'Motor_position_detect' (12#1) [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/Motor_position_detect.v:23] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'ov7670_vga' (13#1) [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/new/ov7670_vga.v:5] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:01:52 ; elapsed = 00:42:27 . Memory (MB): peak = 1134.066 ; gain = 957.340 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ 
+// Tcl Message: --------------------------------------------------------------------------------- Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:52 ; elapsed = 00:42:27 . Memory (MB): peak = 1134.066 ; gain = 957.340 --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Parsing XDC File [h:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xdc] for cell 'clk_wiz_0/inst' 
+// Tcl Message: INFO: [Timing 38-2] Deriving generated clocks INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [h:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ov7670_vga_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/ov7670_vga_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: Parsing XDC File [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/constrs_1/new/ov7670_1.xdc] 
+// Tcl Message: Finished Parsing XDC File [H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.srcs/constrs_1/new/ov7670_1.xdc] 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-140] Inserted 2 IBUFs to IO ports without IO buffers. INFO: [Opt 31-141] Inserted 37 OBUFs to IO ports without IO buffers. INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:02:14 ; elapsed = 00:42:42 . Memory (MB): peak = 1472.281 ; gain = 1295.555 
+// Tcl Message: 45 Infos, 36 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:18 . Memory (MB): peak = 1472.281 ; gain = 368.383 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// Elapsed time: 18 seconds
+dismissDialog("Open Elaborated Design"); // cp:P (cl:JFrame)
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 8/8/18 1:46:38 AM CST
+# Process ID: 8724
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+de.concept.nlview.NlviewException: pick: no current page (See H:/Desktop/OV7670_XY_ok1/OV7670_1/vivado_pid8724.debug)
+*/
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 8/8/18 1:46:47 AM CST
+# Process ID: 8724
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+de.concept.nlview.NlviewException: pick: no current page (See H:/Desktop/OV7670_XY_ok1/OV7670_1/vivado_pid8724.debug)
+*/
+// [GUI Memory]: 230 MB (+728kb) [00:43:02]
+// Elapsed time: 31 seconds
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // g:X
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_1.xdc", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_position_detect.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 391, 441); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("Motor_position_detect.v", 402, 470); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 27 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_FILESET_WINDOW, "Sources"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_FILESET_WINDOW
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 66 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 6); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_1.xdc", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// PAPropertyPanels.initPanels (Moter_X (Moter_X)) elapsed time: 0.2s
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 8/8/18 1:49:54 AM CST
+# Process ID: 8724
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+de.concept.nlview.NlviewException: pick: no current page (See H:/Desktop/OV7670_XY_ok1/OV7670_1/vivado_pid8724.debug)
+*/
+// Elapsed time: 49 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// [GUI Memory]: 243 MB (+1689kb) [00:46:50]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_position_detect.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 294, 413); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 695, 413); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 272, 443); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 666, 449); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Wed Aug 08 01:51:39 2018] Launched synth_1... Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Wed Aug 08 01:51:39 2018] Launched impl_1... Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 52 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_position_detect.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 256 MB (+647kb) [00:49:19]
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A 
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 120 seconds
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 30, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// ae:g (cl:JFrame): Open New Hardware Target: addNotify
+dismissDialog("Open New Hardware Target"); // ae:g (cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false); // f:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A 
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A 
+// Elapsed time: 58 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false); // f:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A 
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A 
+// Elapsed time: 82 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false); // f:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A 
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A 
+// Elapsed time: 33 seconds
+selectCodeEditor("Motor_position_detect.v", 368, 426); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 164 seconds
+selectCodeEditor("Motor_position_detect.v", 630, 412); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 630, 412, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Motor_position_detect.v", 597, 414); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 597, 414, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Motor_position_detect.v", 568, 414); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 568, 414, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Motor_position_detect.v", 579, 411); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 579, 411, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Motor_position_detect.v", 674, 417); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("Motor_position_detect.v", 616, 442); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 566, 442); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Motor_position_detect.v", 566, 442, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Motor_position_detect.v", 643, 442); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 183, 418); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 183, 418, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_position_detect.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Wed Aug 08 02:02:04 2018] Launched synth_1... Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Wed Aug 08 02:02:04 2018] Launched impl_1... Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_position_detect.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 108 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_DESIGN_RUNS_WINDOW, "Design Runs"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_DESIGN_RUNS_WINDOW
+// [GUI Memory]: 269 MB (+405kb) [01:00:23]
+// Elapsed time: 12 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "div_32_32_synth_1 ; div_32_32 ; Not started ; 0 ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2015) ; xc7a200tsbg484-1 ; Vivado Synthesis Defaults", 3, "0", 3, false); // W:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "clk_wiz_0_synth_1 ; clk_wiz_0 ; Synthesis Out-of-date ; 100 ;  ;  ;  ;  ;  ;  ; 0.0 ; 0 ; 0.0 ; 0 ; 0.0 ; 0 ; 0.0 ; 0 ; Mon Aug 06 22:51:08 CST 2018 ; 00:00:50 ; Vivado Synthesis Defaults (Vivado Synthesis 2015) ; xc7a35tcpg236-1 ; Vivado Synthesis Defaults", 4, "Synthesis Out-of-date", 2, true); // W:av (JViewport:JComponent, cl:JFrame) - Node
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "clk_wiz_0_synth_1 ; clk_wiz_0 ; Synthesis Out-of-date ; 100 ;  ;  ;  ;  ;  ;  ; 0.0 ; 0 ; 0.0 ; 0 ; 0.0 ; 0 ; 0.0 ; 0 ; Mon Aug 06 22:51:08 CST 2018 ; 00:00:50 ; Vivado Synthesis Defaults (Vivado Synthesis 2015) ; xc7a35tcpg236-1 ; Vivado Synthesis Defaults", 4); // W:av (JViewport:JComponent, cl:JFrame)
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "DIV_32_32_synth_1 ; DIV_32_32 ; synth_design Complete! ; 100 ;  ;  ;  ;  ;  ;  ; 5.697115421295166 ; 1185 ; 7.85817289352417 ; 3269 ; 0.0 ; 0 ; 0.0 ; 0 ; Mon Aug 06 22:03:44 CST 2018 ; 00:01:08 ; Vivado Synthesis Defaults (Vivado Synthesis 2015) ; xc7a35tcpg236-1 ; Vivado Synthesis Defaults", 6); // W:av (JViewport:JComponent, cl:JFrame)
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "blk_mem_gen_0_synth_1 ; blk_mem_gen_0 ; synth_design Complete! ; 100 ;  ;  ;  ;  ;  ;  ; 0.6538461446762085 ; 136 ; 0.024038461968302727 ; 10 ; 95.0 ; 47 ; 0.0 ; 0 ; Mon Aug 06 22:48:30 CST 2018 ; 00:02:38 ; Vivado Synthesis Defaults (Vivado Synthesis 2015) ; xc7a35tcpg236-1 ; Vivado Synthesis Defaults", 8); // W:av (JViewport:JComponent, cl:JFrame)
+// [GUI Memory]: 284 MB (+1130kb) [01:00:35]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_FILESET_WINDOW, "Sources"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_FILESET_WINDOW
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g:JideTabbedPane (O:aK, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0]", 2, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Synthesis]", 4, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// T:cp (cl:JFrame):  Re-customize IP : addNotify
+// t:P (cl:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // T:cp (cl:JFrame)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 1); // cG:g (G:JPanel, t:P)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "MMCM Settings", 2); // cG:g (G:JPanel, t:P)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// [GUI Memory]: 298 MB (+263kb) [01:01:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,255 MB. GUI used memory: 242 MB. Current time: 8/8/18 2:04:58 AM CST
+// Elapsed time: 16 seconds
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+// Elapsed time: 21 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false); // f:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A 
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 7 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A 
+// Elapsed time: 52 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 79 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "clk_wiz_0_impl_1 ; clk_wiz_0 ; Not started ; 0 ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2015) ; xc7a35tcpg236-1 ; Vivado Implementation Defaults", 5, "clk_wiz_0_impl_1", 0, false); // W:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "clk_wiz_0_impl_1 ; clk_wiz_0 ; Not started ; 0 ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2015) ; xc7a35tcpg236-1 ; Vivado Implementation Defaults", 5, "clk_wiz_0_impl_1", 0, false); // W:av (JViewport:JComponent, cl:JFrame)
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "clk_wiz_0_impl_1 ; clk_wiz_0 ; Not started ; 0 ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2015) ; xc7a35tcpg236-1 ; Vivado Implementation Defaults", 5); // W:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "clk_wiz_0_impl_1 ; clk_wiz_0 ; Not started ; 0 ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2015) ; xc7a35tcpg236-1 ; Vivado Implementation Defaults", 5, "clk_wiz_0_impl_1", 0, false, false, false, false, false, true); // W:av (JViewport:JComponent, cl:JFrame) - Double Click
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g:JideTabbedPane (O:aK, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), clk_wiz_0 - clk_wiz_0 (clk_wiz_0.xci)]", 2, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), clk_wiz_0 - clk_wiz_0 (clk_wiz_0.xci)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// T:cp (cl:JFrame):  Re-customize IP : addNotify
+// t:P (cl:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // T:cp (cl:JFrame)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), clk_wiz_0 - clk_wiz_0 (clk_wiz_0.xci)]", 2, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), clk_wiz_0 - clk_wiz_0 (clk_wiz_0.xci)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// T:cp (cl:JFrame):  Re-customize IP : addNotify
+// t:P (cl:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // T:cp (cl:JFrame)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 1); // cG:g (G:JPanel, t:P)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), clk_wiz_0 - clk_wiz_0 (clk_wiz_0.xci)]", 2, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), clk_wiz_0 - clk_wiz_0 (clk_wiz_0.xci)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// T:cp (cl:JFrame):  Re-customize IP : addNotify
+// t:P (cl:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // T:cp (cl:JFrame)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 1); // cG:g (G:JPanel, t:P)
+setText("CLKOUT2 REQUESTED OUT FREQ", "25.000"); // O:ao (cH:N)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+// [GUI Memory]: 313 MB (+91kb) [01:04:32]
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "clk_wiz_0_synth_1 ; clk_wiz_0 ; Synthesis Out-of-date ; 100 ;  ;  ;  ;  ;  ;  ; 0.0 ; 0 ; 0.0 ; 0 ; 0.0 ; 0 ; 0.0 ; 0 ; Mon Aug 06 22:51:08 CST 2018 ; 00:00:50 ; Vivado Synthesis Defaults (Vivado Synthesis 2015) ; xc7a35tcpg236-1 ; Vivado Synthesis Defaults", 4, "clk_wiz_0_synth_1", 0, true); // W:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "clk_wiz_0_synth_1 ; clk_wiz_0 ; Synthesis Out-of-date ; 100 ;  ;  ;  ;  ;  ;  ; 0.0 ; 0 ; 0.0 ; 0 ; 0.0 ; 0 ; 0.0 ; 0 ; Mon Aug 06 22:51:08 CST 2018 ; 00:00:50 ; Vivado Synthesis Defaults (Vivado Synthesis 2015) ; xc7a35tcpg236-1 ; Vivado Synthesis Defaults", 4, "clk_wiz_0_synth_1", 0, true, false, false, false, true, false); // W:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectCodeEditor("Moter_X.v", 173, 459); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), clk_wiz_0 - clk_wiz_0 (clk_wiz_0.xci)]", 2, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), clk_wiz_0 - clk_wiz_0 (clk_wiz_0.xci)]", 2, false, false, false, false, true, false); // A:k (H:JPanel, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // X:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // X:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // X:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // X:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // X:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // X:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectCodeEditor("Moter_X.v", 75, 386); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), clk_wiz_0 - clk_wiz_0 (clk_wiz_0.xci)]", 2, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), clk_wiz_0 - clk_wiz_0 (clk_wiz_0.xci)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// T:cp (cl:JFrame):  Re-customize IP : addNotify
+// t:P (cl:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // T:cp (cl:JFrame)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 1); // cG:g (G:JPanel, t:P)
+selectCheckBox((HResource) null, "reset", true); // h:JCheckBox (bn:D, t:P): TRUE
+selectCheckBox((HResource) null, "reset", false); // h:JCheckBox (bn:D, t:P): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.USE_RESET {false}] [get_ips clk_wiz_0] 
+// aB:ag (cl:JFrame): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aB:ag)
+// cp:P (cl:JFrame):  Managing Output Products : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [Vivado 12-3702] IP 'clk_wiz_0.xci' is already generated and up-to-date, this IP will not be regenerated 
+// Tcl Message: reset_run clk_wiz_0_synth_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_run -jobs 4 clk_wiz_0_synth_1 
+// Tcl Message: [Wed Aug 08 02:08:48 2018] Launched clk_wiz_0_synth_1... Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/clk_wiz_0_synth_1/runme.log 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,276 MB. GUI used memory: 296 MB. Current time: 8/8/18 2:08:53 AM CST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_position_detect.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_Y.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,322 MB. GUI used memory: 294 MB. Current time: 8/8/18 2:09:28 AM CST
+// [Engine Memory]: 1,322 MB (+30189kb) [01:05:44]
+// Elapsed time: 73 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Wed Aug 08 02:10:29 2018] Launched synth_1... Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Wed Aug 08 02:10:29 2018] Launched impl_1... Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+// [GUI Memory]: 332 MB (+3507kb) [01:06:44]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 63 seconds
+selectCodeEditor("Moter_X.v", 1011, 227); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 118 seconds
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false); // f:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A 
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A 
+// Elapsed time: 294 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false); // f:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A 
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 56 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 122, 164); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 122, 164, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_vga.v", 112, 240); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 112, 240, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_Y.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_Y.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_Y.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// [GUI Memory]: 349 MB (+0kb) [01:16:44]
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_1.xdc", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 223, 484); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 223, 484, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_1.xdc", 619, 472); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 63 seconds
+selectCodeEditor("ov7670_1.xdc", 886, 461); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Wed Aug 08 02:21:52 2018] Launched synth_1... Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Wed Aug 08 02:21:52 2018] Launched impl_1... Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_position_detect.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_Y.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_Y.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_Y.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A 
+// Elapsed time: 109 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_Y.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_vga.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_position_detect.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// [GUI Memory]: 368 MB (+1515kb) [01:20:49]
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 13 seconds
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+// Elapsed time: 30 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false); // f:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A 
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A 
+// Elapsed time: 162 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov7670_1.xdc", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 221, 492); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 221, 492, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_position_detect.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_Y.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("Moter_X.v", 684, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Moter_X.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Wed Aug 08 02:28:44 2018] Launched synth_1... Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Wed Aug 08 02:28:44 2018] Launched impl_1... Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 71 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_position_detect.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 116 seconds
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false); // f:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A 
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A 
+// [GUI Memory]: 386 MB (+32kb) [01:28:42]
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_X.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("Moter_X.v", 767, 139); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 690, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 737, 141); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 50 seconds
+selectCodeEditor("Moter_X.v", 446, 138); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 755, 141); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 83 seconds
+selectCodeEditor("Moter_X.v", 315, 91); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 294, 92); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 62 seconds
+selectCodeEditor("Moter_X.v", 409, 392); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("Moter_X.v", 771, 382); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 771, 382, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Moter_X.v", 597, 382); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Moter_X.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("Moter_X.v", 761, 335); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Moter_X.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 471, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 471, 220, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Moter_X.v", 471, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 348, 305); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 348, 305); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 348, 305, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "Moter_X.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 362, 288); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 362, 288, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Moter_X.v", 362, 288); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 349, 195); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 346, 206); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 346, 206, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "Moter_X.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 413, 482); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 787, 484); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 787, 484, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Moter_X.v", 605, 490); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Moter_X.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 869, 495); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 426, 466); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 793, 465); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 793, 465, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Moter_X.v", 762, 467); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("Moter_X.v", 762, 467, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("Moter_X.v", 594, 469); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "Moter_X.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Wed Aug 08 02:37:45 2018] Launched synth_1... Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Wed Aug 08 02:37:45 2018] Launched impl_1... Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,329 MB. GUI used memory: 341 MB. Current time: 8/8/18 2:39:29 AM CST
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 466 seconds
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false); // f:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183636043A (0) ; Closed", 1, "xilinx_tcf/Digilent/210183636043A (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A 
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A 
+// Elapsed time: 368 seconds
+selectCodeEditor("Moter_X.v", 324, 393); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Moter_Y.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("Moter_Y.v", 325, 394); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify

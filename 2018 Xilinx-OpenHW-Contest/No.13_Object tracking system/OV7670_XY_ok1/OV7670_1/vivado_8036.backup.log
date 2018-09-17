@@ -1,0 +1,863 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Aug 08 05:18:08 2018
+# Process ID: 13392
+# Log file: H:/Desktop/OV7670_XY_ok1/OV7670_1/vivado.log
+# Journal file: H:/Desktop/OV7670_XY_ok1/OV7670_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/VIVADO/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 847.938 ; gain = 225.422
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 05:19:18 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 05:19:18 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 05:27:14 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 05:27:14 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 05:35:23 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 05:35:23 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 05:44:49 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 05:44:49 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev  [lindex [get_cfgmem_parts {s25fl032p-spi-x1_x2_x4}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.FILES [list "H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices] 0]]; program_hw_devices [lindex [get_hw_devices] 0]; }; 
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_cfgmem -hw_cfgmem [get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+Mfg ID : 1   Memory Type : 2   Memory Capacity : 15   Device ID 1 : 0   Device ID 2 : 0
+Performing Erase Operation...
+Erase Operation successful.
+Performing Program and Verify Operations...
+Program/Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:00 ; elapsed = 00:00:52 . Memory (MB): peak = 1046.246 ; gain = 0.000
+endgroup
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+INFO: [Labtoolstcl 44-468] Target hw_target localhost/xilinx_tcf/Digilent/210183636043A is already closed
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+INFO: [Labtoolstcl 44-468] Target hw_target localhost/xilinx_tcf/Digilent/210183636043A is already closed
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 09:14:49 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 09:14:49 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 09:22:31 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 09:22:31 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 09:29:47 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 09:29:47 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 09:41:53 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 09:41:53 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 09:50:45 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 09:50:45 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 09:58:31 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 09:58:31 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 10:05:10 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 10:05:10 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 10:19:10 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 10:19:10 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 10:29:10 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 10:29:10 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 10:37:54 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 10:37:54 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 10:46:38 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 10:46:38 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 10:55:13 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 10:55:13 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 11:02:59 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 11:02:59 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 11:10:54 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 11:10:54 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 11:18:14 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 11:18:14 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 11:23:31 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 11:23:31 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 11:30:38 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 11:30:38 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 11:38:35 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 11:38:35 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 11:45:59 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 11:45:59 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 12:05:28 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 12:05:28 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+INFO: [Labtoolstcl 44-468] Target hw_target localhost/xilinx_tcf/Digilent/210183636043A is already closed
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+INFO: [Labtoolstcl 44-468] Target hw_target localhost/xilinx_tcf/Digilent/210183636043A is already closed
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 13:20:51 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 13:20:51 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 13:30:23 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 13:30:23 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 13:38:22 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 13:38:22 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 13:48:24 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 13:48:24 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 14:00:29 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 14:00:29 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 14:11:22 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 14:11:22 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 14:16:49 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 14:16:49 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 14:24:05 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 14:24:05 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 14:36:19 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 14:36:19 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Aug 08 14:50:31 2018] Launched synth_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/synth_1/runme.log
+[Wed Aug 08 14:50:31 2018] Launched impl_1...
+Run output will be captured here: H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+open_hw_target {localhost/xilinx_tcf/Digilent/210183636043A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183636043A
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev  [lindex [get_cfgmem_parts {s25fl032p-spi-x1_x2_x4}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.FILES [list "H:/Desktop/OV7670_XY_ok1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices] 0]]; program_hw_devices [lindex [get_hw_devices] 0]; }; 
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_cfgmem -hw_cfgmem [get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+Mfg ID : 1   Memory Type : 2   Memory Capacity : 15   Device ID 1 : 0   Device ID 2 : 0
+Performing Erase Operation...
+Erase Operation successful.
+Performing Program and Verify Operations...
+Program/Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:01 ; elapsed = 00:00:52 . Memory (MB): peak = 1200.277 ; gain = 0.000
+endgroup
+ERROR: [Labtools 27-3175] Target jsn-Basys3-210183636043A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210183636043A
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 08 15:06:05 2018...

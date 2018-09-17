@@ -1,0 +1,835 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 7460
+
+Current time: 	8/4/18 9:29:59 AM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	D:/Professional_programfiles/VIVADO/Vivado/2015.2/tps/win64/jre
+
+User name: 	WangTianpeng
+User directory: H:/UserFiles/Desktop/OV7670_1/OV7670_1
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/WangTianpeng/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/WangTianpeng/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	137 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 442 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: H:\UserFiles\Desktop\OV7670_1\OV7670_1\OV7670_1.xpr. Version: Vivado v2015.2 
+// cp:P (cl:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// Tcl Message: open_project H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.xpr 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 57 MB (+56888kb) [00:00:06]
+// [Engine Memory]: 411 MB (+279378kb) [00:00:06]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 494 MB. GUI used memory: 30 MB. Current time: 8/4/18 9:30:01 AM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 497 MB (+69038kb) [00:00:10]
+// [Engine Memory]: 541 MB (+19718kb) [00:00:11]
+// [GUI Memory]: 142 MB (+86844kb) [00:00:13]
+// [Engine Memory]: 645 MB (+81091kb) [00:00:13]
+// [Engine Memory]: 728 MB (+52458kb) [00:00:14]
+// [GUI Memory]: 154 MB (+4788kb) [00:00:14]
+// [Engine Memory]: 769 MB (+5355kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'H:/Desktop/OV7670_1/OV7670_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Professional_programfiles/VIVADO/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 163 MB (+1045kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 810 MB (+2241kb) [00:00:20]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: OV7670_1; location: H:/UserFiles/Desktop/OV7670_1/OV7670_1; part: xc7a200tsbg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:16 . Memory (MB): peak = 1026.113 ; gain = 414.188 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 838 MB. GUI used memory: 66 MB. Current time: 8/4/18 9:30:16 AM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("ov7670_vga.v", 168, 281); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 126, 322); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("ov7670_vga.v", 179, 316); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 354, 344); // bj:J (JPanel:JComponent, cl:JFrame)
+selectButton(RDIResourceCommand.RDICommands_OPTIONS, "options"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_OPTIONS
+// : addNotify
+selectButton("Fonts", "Fonts"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, U:br)
+selectButton(PAResourceTtoZ.ToolOptionsFontPage_RESET_TO_DEFAULTS, "Reset to Defaults"); // E:JXButton (JPanel:JComponent, U:br)
+selectButton("PAResourceTtoZ.ToolOptionsFontPage_OK_TO_RESET_FONT_STYLE_BACK_TO_DEFAULT_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// Elapsed time: 22 seconds
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, U:br)
+// [Engine Memory]: 854 MB (+3641kb) [00:01:01]
+dismissDialog("Vivado Options"); // U:br (cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 166, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_vga.v", 173, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 77 MB. Current time: 8/4/18 9:30:57 AM CST
+// Elapsed time: 170 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 8); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, ov7670_1.xdc]", 10, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, ov7670_1.xdc]", 10, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 90 seconds
+selectCodeEditor("ov7670_1.xdc", 233, 82); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 233, 82, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("ov7670_1.xdc", 239, 88); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 239, 88, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("ov7670_1.xdc", 239, 137); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 239, 137, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 22 seconds
+selectCodeEditor("ov7670_1.xdc", 231, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 231, 182, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("ov7670_1.xdc", 229, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 229, 237, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_1.xdc", 230, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 230, 233, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("ov7670_1.xdc", 237, 287); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 237, 287, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_1.xdc", 240, 347); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 240, 347, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 44 seconds
+selectCodeEditor("ov7670_1.xdc", 230, 383); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 230, 383, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_1.xdc", 239, 430); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 239, 430, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 45 seconds
+selectCodeEditor("ov7670_1.xdc", 239, 138); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 239, 138, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_1.xdc", 230, 186); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 230, 186, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 40 seconds
+selectCodeEditor("ov7670_1.xdc", 237, 157); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("ov7670_1.xdc", 240, 212); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("ov7670_1.xdc", 232, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 232, 256, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_1.xdc", 240, 313); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 240, 313, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("ov7670_1.xdc", 234, 352); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 234, 352, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("ov7670_1.xdc", 235, 406); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 235, 406, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("ov7670_1.xdc", 325, 368); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), DATA_processing - DATA_processing (DATA_processing.v)]", 4, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_vga (ov7670_vga.v), DATA_processing - DATA_processing (DATA_processing.v)]", 4, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat Aug 04 09:40:34 2018] Launched synth_1... Run output will be captured here: H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Sat Aug 04 09:40:34 2018] Launched impl_1... Run output will be captured here: H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 749 seconds
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.2   **** Build date : Jun 26 2015-16:56:39     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // cp:P (cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1071.758 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1] 
+// 'x' command handler elapsed time: 28 seconds
+// Elapsed time: 24 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+selectButton(PAResourceCommand.PACommandNames_RUN_TRIGGER, "Hardware_run_trigger"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// Tcl Message: run_hw_ila hw_ila_1 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-04 09:53:44 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila hw_ila_1 
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data hw_ila_1] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-04 09:53:44 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1074.277 ; gain = 0.000 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 130 MB. Current time: 8/4/18 9:53:51 AM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// Elapsed time: 11 seconds
+maximizeFrame(RDIResource.WorkspaceDockingHolder_DOCKABLE_FRAME, "Waveform - hw_ila_1"); // Z:ap (FrameContainer:JideTabbedPane, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 119 MB. Current time: 8/4/18 9:53:56 AM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 230, 56); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 230, 78); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 138 MB. Current time: 8/4/18 9:53:58 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 180, 133); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 134 MB. Current time: 8/4/18 9:54:00 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 192, 144); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 123 MB. Current time: 8/4/18 9:54:01 AM CST
+// Elapsed time: 38 seconds
+selectButton(PAResourceCommand.PACommandNames_RUN_TRIGGER, "Hardware_run_trigger"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// Tcl Message: run_hw_ila hw_ila_1 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-04 09:54:39 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila hw_ila_1 
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data hw_ila_1] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-04 09:54:40 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: upload_hw_ila_data: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1074.277 ; gain = 0.000 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 119 MB. Current time: 8/4/18 9:54:48 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 119 MB. Current time: 8/4/18 9:54:49 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 125 MB. Current time: 8/4/18 9:54:50 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 12 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 206, 150); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 128 MB. Current time: 8/4/18 9:54:52 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 124 MB. Current time: 8/4/18 9:54:53 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 186, 153); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 135 MB. Current time: 8/4/18 9:54:54 AM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 143, 165); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 193, 172); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 206, 173); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 132 MB. Current time: 8/4/18 9:54:56 AM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 228, 172); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 250, 167); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 269, 162); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 119 MB. Current time: 8/4/18 9:54:57 AM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 288, 160); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(PAResourceCommand.PACommandNames_RUN_TRIGGER, "Hardware_run_trigger"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// Tcl Message: run_hw_ila hw_ila_1 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-04 09:55:05 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila hw_ila_1 
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data hw_ila_1] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-04 09:55:05 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 119 MB. Current time: 8/4/18 9:55:12 AM CST
+// Tcl Message: upload_hw_ila_data: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1074.277 ; gain = 0.000 
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 217, 157); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 119 MB. Current time: 8/4/18 9:55:15 AM CST
+// Elapsed time: 75 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (2) ; Programmed", 2, "xc7a200t_0 (2)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_TRIGGER, "Run Trigger"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// Tcl Message: run_hw_ila hw_ila_1 
+// HOptionPane Error: "ERROR: [Labtools 27-3176] hw_server failed during internal command.<br>Resolution: Check that the hw_server is running and the hardware connectivity to the target<br> (RunTrigger)"
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// HOptionPane Warning: 'There are no armed ILAs. (Stop Trigger)'
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (2) ; Programmed", 2, "xc7a200t_0 (2)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1074.277 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 143 MB. Current time: 8/4/18 9:56:58 AM CST
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// 'x' command handler elapsed time: 23 seconds
+// Elapsed time: 21 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-DLC9-Port_#0001.Hub_#0003 is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// Elapsed time: 33 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 210, 162); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 210, 162); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 210, 162); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: HW_OBJECT_DELETE
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // i:aK
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-DLC9-Port_#0001.Hub_#0003 is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 INFO: [Labtoolstcl 44-468] Target hw_target localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 is already closed 
+// Elapsed time: 138 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0) ; Closed", 1, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0)", 0, false); // f:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0) ; Closed", 1, "xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 (0)", 0, false, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# Current time: 8/4/18 9:59:52 AM CST
+# Process ID: 7460
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.frmwork.CommandFailedException: WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a200t_0 and the probes file H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/debug_nets.ltx.
+The device design has 0 ILA core(s) and 0 VIO core(s). The probes file has 1 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file OR
+2. Goto device properties and associate the correct probes file with the programming file already programmed in the device.
+ (See H:/UserFiles/Desktop/OV7670_1/OV7670_1/vivado_pid7460.debug)
+*/
+// Tcl Message: open_hw_target {localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: set_property PROBES.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// HOptionPane Error: "WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device<br>xc7a200t_0 and the probes file H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/<br>impl_1/debug_nets.ltx. The device design has 0 ILA core(s) and 0 VIO core(s). The<br>probes file has 1 ILA core(s) and 0 VIO core(s). Resolution:  1. Reprogram device<br>with the correct programming file and associated probes file OR 2. Goto device properties<br>and associate the correct probes file with the programming file already programmed<br>in the device.  (Vivado v2015.2 (64-bit))"
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true); // f:av (JViewport:JComponent, cl:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true, false, false, false, true, false); // f:av (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/ov7670_vga.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 1075.098 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1] 
+// 'x' command handler elapsed time: 24 seconds
+// Elapsed time: 23 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 33 seconds
+selectButton(PAResourceCommand.PACommandNames_RUN_TRIGGER, "Hardware_run_trigger"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila hw_ila_1 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-04 10:00:54 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila hw_ila_1 
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data hw_ila_1] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-04 10:00:54 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 133 MB. Current time: 8/4/18 10:01:02 AM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: upload_hw_ila_data: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1078.512 ; gain = 0.000 
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 226, 212); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 124 MB. Current time: 8/4/18 10:01:04 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 124 MB. Current time: 8/4/18 10:01:05 AM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 93, 163); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 132, 176); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 102, 175); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 133 MB. Current time: 8/4/18 10:01:07 AM CST
+selectButton(PAResourceCommand.PACommandNames_RUN_TRIGGER, "Hardware_run_trigger"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// Tcl Message: run_hw_ila hw_ila_1 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-04 10:01:14 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila hw_ila_1 
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data hw_ila_1] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-04 10:01:14 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: upload_hw_ila_data: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1078.512 ; gain = 0.000 
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 74, 189); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 124 MB. Current time: 8/4/18 10:01:24 AM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 55, 182); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 34, 176); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 172, 168); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 124 MB. Current time: 8/4/18 10:01:27 AM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 199, 154); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 221, 149); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 256, 162); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 124 MB. Current time: 8/4/18 10:01:29 AM CST
+// Tcl Message: ERROR: [Labtools 27-3175] Target jsn-DLC9-Port_#0001.Hub_#0003 is no longer available. Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up. Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target. 
+// Tcl Message: close_hw_target 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: HW_OBJECT_DELETE
+// Elapsed time: 14 seconds
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // i:aK
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Xilinx/Port_#0001.Hub_#0003 
+selectCodeEditor("DATA_processing.v", 130, 206); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 130, 206, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 225, 434); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DATA_processing.v", 225, 434, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "DATA_processing.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat Aug 04 10:02:05 2018] Launched synth_1... Run output will be captured here: H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/synth_1/runme.log [Sat Aug 04 10:02:05 2018] Launched impl_1... Run output will be captured here: H:/UserFiles/Desktop/OV7670_1/OV7670_1/OV7670_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 109 seconds
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DATA_processing.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 485, 541); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("ov7670_1.xdc", 485, 541, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("ov7670_1.xdc", 485, 541); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (r:JPanel, cl:JFrame)
+// bI:P (cl:JFrame): Cancel Implementation: addNotify
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a:JButton (JPanel:JComponent, bI:P)
